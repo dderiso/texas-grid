@@ -1,0 +1,7544 @@
+{
+ "source": "HIFLD Power Plants in the US (ArcGIS FeatureServer)",
+ "fetched_iso": "2026-04-26T22:46:35.292Z",
+ "filter": "State='Texas' AND Total_MW>=50",
+ "n_plants": 537,
+ "plants": [
+  {
+   "id": "3470",
+   "name": "W A Parish",
+   "utility": "NRG Texas Power LLC",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal; Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine",
+   "capacity_MW": 3632,
+   "per_fuel_MW": {
+    "coal": 2514,
+    "gas": 1118
+   },
+   "lat": 29.4828000000968,
+   "lon": -95.6310999999944,
+   "period": 202502
+  },
+  {
+   "id": "6251",
+   "name": "South Texas Project",
+   "utility": "STP Nuclear Operating Co",
+   "fuel": "nuclear",
+   "tech": "Nuclear",
+   "capacity_MW": 2580,
+   "per_fuel_MW": {
+    "nuclear": 2580
+   },
+   "lat": 28.7950000002576,
+   "lon": -96.0481000003466,
+   "period": 202502
+  },
+  {
+   "id": "6146",
+   "name": "Martin Lake",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 2410,
+   "per_fuel_MW": {
+    "coal": 2410
+   },
+   "lat": 32.2606000002848,
+   "lon": -94.570599999871,
+   "period": 202502
+  },
+  {
+   "id": "6145",
+   "name": "Comanche Peak",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "nuclear",
+   "tech": "Nuclear",
+   "capacity_MW": 2400,
+   "per_fuel_MW": {
+    "nuclear": 2400
+   },
+   "lat": 32.2983650000872,
+   "lon": -97.7855150003772,
+   "period": 202502
+  },
+  {
+   "id": "55480",
+   "name": "Forney Energy Center",
+   "utility": "LaFrontera Holdings LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1770,
+   "per_fuel_MW": {
+    "gas": 1770
+   },
+   "lat": 32.7563000003004,
+   "lon": -96.4915999997464,
+   "period": 202502
+  },
+  {
+   "id": "6180",
+   "name": "Oak Grove (TX)",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 1710,
+   "per_fuel_MW": {
+    "coal": 1710
+   },
+   "lat": 31.1803000001837,
+   "lon": -96.4866000002311,
+   "period": 202502
+  },
+  {
+   "id": "298",
+   "name": "Limestone",
+   "utility": "NRG Texas Power LLC",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 1660,
+   "per_fuel_MW": {
+    "coal": 1660
+   },
+   "lat": 31.4218999997478,
+   "lon": -96.2525000001836,
+   "period": 202502
+  },
+  {
+   "id": "55091",
+   "name": "Midlothian Energy Facility",
+   "utility": "Midlothian Energy LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1620,
+   "per_fuel_MW": {
+    "gas": 1620
+   },
+   "lat": 32.4302000000894,
+   "lon": -97.0536999999718,
+   "period": 202502
+  },
+  {
+   "id": "6179",
+   "name": "Fayette Power Project",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 1615,
+   "per_fuel_MW": {
+    "coal": 1615
+   },
+   "lat": 29.9171999998584,
+   "lon": -96.7505999996075,
+   "period": 202502
+  },
+  {
+   "id": "58001",
+   "name": "Temple Power Station",
+   "utility": "Temple Generation Holdings LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1580,
+   "per_fuel_MW": {
+    "gas": 1580
+   },
+   "lat": 31.0558329997603,
+   "lon": -97.3172220003956,
+   "period": 202502
+  },
+  {
+   "id": "3460",
+   "name": "Cedar Bayou",
+   "utility": "NRG Texas Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 1494,
+   "per_fuel_MW": {
+    "gas": 1494
+   },
+   "lat": 29.7499999997908,
+   "lon": -94.925599999587,
+   "period": 202502
+  },
+  {
+   "id": "3459",
+   "name": "Sabine",
+   "utility": "Entergy Texas Inc.",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 1493.5,
+   "per_fuel_MW": {
+    "gas": 1493.5
+   },
+   "lat": 30.0242000000394,
+   "lon": -93.8780000000814,
+   "period": 202502
+  },
+  {
+   "id": "7097",
+   "name": "J K Spruce",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 1345,
+   "per_fuel_MW": {
+    "coal": 1345
+   },
+   "lat": 29.3097220001086,
+   "lon": -98.3202999996236,
+   "period": 202502
+  },
+  {
+   "id": "3491",
+   "name": "Handley",
+   "utility": "Constellation Power, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 1245,
+   "per_fuel_MW": {
+    "gas": 1245
+   },
+   "lat": 32.7282999999352,
+   "lon": -97.2191999997357,
+   "period": 202502
+  },
+  {
+   "id": "55230",
+   "name": "Jack County",
+   "utility": "Jack County Power, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1241,
+   "per_fuel_MW": {
+    "gas": 1241
+   },
+   "lat": 33.1009999997526,
+   "lon": -97.9573999997034,
+   "period": 202502
+  },
+  {
+   "id": "55464",
+   "name": "Deer Park Energy Center",
+   "utility": "Deer Park Energy Center",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1192,
+   "per_fuel_MW": {
+    "gas": 1192
+   },
+   "lat": 29.713414000001,
+   "lon": -95.134507999743,
+   "period": 202502
+  },
+  {
+   "id": "60122",
+   "name": "Colorado Bend II",
+   "utility": "Constellation Power, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1142.7,
+   "per_fuel_MW": {
+    "gas": 1142.7
+   },
+   "lat": 29.2894149999631,
+   "lon": -96.0653989997067,
+   "period": 202502
+  },
+  {
+   "id": "55358",
+   "name": "Cottonwood Energy Project",
+   "utility": "NRG Cottonwood Tenant LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1138.8,
+   "per_fuel_MW": {
+    "gas": 1138.8
+   },
+   "lat": 30.2587999997908,
+   "lon": -93.7353000004066,
+   "period": 202502
+  },
+  {
+   "id": "59812",
+   "name": "Wolf Hollow II",
+   "utility": "Constellation Power, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1103.4,
+   "per_fuel_MW": {
+    "gas": 1103.4
+   },
+   "lat": 32.3376789996211,
+   "lon": -97.7346119998368,
+   "period": 202502
+  },
+  {
+   "id": "6194",
+   "name": "Tolk",
+   "utility": "Southwestern Public Service Co",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 1067,
+   "per_fuel_MW": {
+    "coal": 1067
+   },
+   "lat": 34.1864940001286,
+   "lon": -102.569990000259,
+   "period": 202502
+  },
+  {
+   "id": "55215",
+   "name": "Odessa-Ector Power Plant",
+   "utility": "LaFrontera Holdings LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1061.8,
+   "per_fuel_MW": {
+    "gas": 1061.8
+   },
+   "lat": 31.8403000000804,
+   "lon": -102.326399999921,
+   "period": 202502
+  },
+  {
+   "id": "3612",
+   "name": "V H Braunig",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+   "capacity_MW": 1050,
+   "per_fuel_MW": {
+    "gas": 1050
+   },
+   "lat": 29.2566999999882,
+   "lon": -98.3825000002763,
+   "period": 202502
+  },
+  {
+   "id": "55226",
+   "name": "Freestone Energy Center",
+   "utility": "Freestone Power Generation LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1032,
+   "per_fuel_MW": {
+    "gas": 1032
+   },
+   "lat": 31.8906999998515,
+   "lon": -96.1131000003325,
+   "period": 202502
+  },
+  {
+   "id": "64665",
+   "name": "Great Prairie Wind",
+   "utility": "Great Prairie Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 1027,
+   "per_fuel_MW": {
+    "wind": 1027
+   },
+   "lat": 36.3075000000873,
+   "lon": -101.532219999905,
+   "period": 202502
+  },
+  {
+   "id": "6193",
+   "name": "Harrington",
+   "utility": "Southwestern Public Service Co",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal; Natural Gas Steam Turbine;",
+   "capacity_MW": 1018,
+   "per_fuel_MW": {
+    "coal": 679,
+    "gas": 339
+   },
+   "lat": 35.2981600002252,
+   "lon": -101.747187000108,
+   "period": 202502
+  },
+  {
+   "id": "55153",
+   "name": "Guadalupe Generating Station",
+   "utility": "Guadalupe Power Partners LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1005,
+   "per_fuel_MW": {
+    "gas": 1005
+   },
+   "lat": 29.6244000001604,
+   "lon": -98.1419000001404,
+   "period": 202502
+  },
+  {
+   "id": "55097",
+   "name": "Lamar Power Project",
+   "utility": "LaFrontera Holdings LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1004,
+   "per_fuel_MW": {
+    "gas": 1004
+   },
+   "lat": 33.6307999998606,
+   "lon": -95.5899999997393,
+   "period": 202502
+  },
+  {
+   "id": "3469",
+   "name": "T H Wharton",
+   "utility": "NRG Texas Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine;",
+   "capacity_MW": 1002,
+   "per_fuel_MW": {
+    "gas": 1002
+   },
+   "lat": 29.9417000002531,
+   "lon": -95.5306000002165,
+   "period": 202502
+  },
+  {
+   "id": "6139",
+   "name": "Welsh",
+   "utility": "Southwestern Electric Power Co",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 1000,
+   "per_fuel_MW": {
+    "coal": 1000
+   },
+   "lat": 33.0552199998931,
+   "lon": -94.8399930000213,
+   "period": 202502
+  },
+  {
+   "id": "60925",
+   "name": "Montgomery County",
+   "utility": "Entergy Texas Inc.",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 1000,
+   "per_fuel_MW": {
+    "gas": 1000
+   },
+   "lat": 30.4408300002178,
+   "lon": -95.5275000004093,
+   "period": 202502
+  },
+  {
+   "id": "56611",
+   "name": "Sandy Creek Energy Station",
+   "utility": "Sandy Creek Energy Associates LP",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 932.6,
+   "per_fuel_MW": {
+    "coal": 932.6
+   },
+   "lat": 31.474377999953,
+   "lon": -96.9571489995728,
+   "period": 202502
+  },
+  {
+   "id": "3456",
+   "name": "Newman",
+   "utility": "El Paso Electric Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine",
+   "capacity_MW": 930.8,
+   "per_fuel_MW": {
+    "gas": 930.8
+   },
+   "lat": 31.9835869998575,
+   "lon": -106.43177700033,
+   "period": 202502
+  },
+  {
+   "id": "4939",
+   "name": "Barney M Davis",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Natural Gas Steam Turbine;",
+   "capacity_MW": 925,
+   "per_fuel_MW": {
+    "gas": 925
+   },
+   "lat": 27.6064000001346,
+   "lon": -97.3116999997503,
+   "period": 202502
+  },
+  {
+   "id": "55144",
+   "name": "Hays Energy Project",
+   "utility": "Hays Energy, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 916,
+   "per_fuel_MW": {
+    "gas": 916
+   },
+   "lat": 29.7806000001979,
+   "lon": -97.989399999655,
+   "period": 202502
+  },
+  {
+   "id": "3452",
+   "name": "Lake Hubbard",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 915,
+   "per_fuel_MW": {
+    "gas": 915
+   },
+   "lat": 32.835800000139,
+   "lon": -96.5457999997374,
+   "period": 202502
+  },
+  {
+   "id": "3478",
+   "name": "Wilkes",
+   "utility": "Southwestern Electric Power Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 883,
+   "per_fuel_MW": {
+    "gas": 883
+   },
+   "lat": 32.8481630000577,
+   "lon": -94.5479859995548,
+   "period": 202502
+  },
+  {
+   "id": "55062",
+   "name": "Tenaska Frontier Generation Station",
+   "utility": "Tenaska Frontier Partners Ltd",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 860,
+   "per_fuel_MW": {
+    "gas": 860
+   },
+   "lat": 30.5923999996707,
+   "lon": -95.9177999999007,
+   "period": 202502
+  },
+  {
+   "id": "55327",
+   "name": "Baytown Energy Center",
+   "utility": "Baytown Energy Center LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 852,
+   "per_fuel_MW": {
+    "gas": 852
+   },
+   "lat": 29.7730999997101,
+   "lon": -94.9018999998727,
+   "period": 202502
+  },
+  {
+   "id": "3611",
+   "name": "O W Sommers",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 830,
+   "per_fuel_MW": {
+    "gas": 830
+   },
+   "lat": 29.3080560003364,
+   "lon": -98.3242000003954,
+   "period": 202502
+  },
+  {
+   "id": "10554",
+   "name": "Formosa Utility Venture Ltd",
+   "utility": "Formosa Plastics Corp",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 829.8,
+   "per_fuel_MW": {
+    "gas": 829.8
+   },
+   "lat": 28.6917000003818,
+   "lon": -96.5416999998475,
+   "period": 202502
+  },
+  {
+   "id": "55132",
+   "name": "Tenaska Gateway Generating Station",
+   "utility": "Tenaska Gateway Partners Ltd",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 826,
+   "per_fuel_MW": {
+    "gas": 826
+   },
+   "lat": 32.0178260002106,
+   "lon": -94.6197430004455,
+   "period": 202502
+  },
+  {
+   "id": "3482",
+   "name": "Jones",
+   "utility": "Southwestern Public Service Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+   "capacity_MW": 820,
+   "per_fuel_MW": {
+    "gas": 820
+   },
+   "lat": 33.5239000001303,
+   "lon": -101.739199999865,
+   "period": 202502
+  },
+  {
+   "id": "3453",
+   "name": "Mountain Creek",
+   "utility": "Mountain Creek Power, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 808,
+   "per_fuel_MW": {
+    "gas": 808
+   },
+   "lat": 32.7230999997594,
+   "lon": -96.9357999996532,
+   "period": 202502
+  },
+  {
+   "id": "55137",
+   "name": "Rio Nogales Power Project",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 792,
+   "per_fuel_MW": {
+    "gas": 792
+   },
+   "lat": 29.5930560003734,
+   "lon": -97.9732150001805,
+   "period": 202502
+  },
+  {
+   "id": "55172",
+   "name": "Thad Hill Energy Center",
+   "utility": "Thad Hill Energy Center, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 763,
+   "per_fuel_MW": {
+    "gas": 763
+   },
+   "lat": 31.8593999998746,
+   "lon": -97.3585999995867,
+   "period": 202502
+  },
+  {
+   "id": "55299",
+   "name": "Channel Energy Center LLC",
+   "utility": "Channel Energy Center LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 760,
+   "per_fuel_MW": {
+    "gas": 760
+   },
+   "lat": 29.718900000149,
+   "lon": -95.231900000216,
+   "period": 202502
+  },
+  {
+   "id": "55139",
+   "name": "Wolf Hollow I LP",
+   "utility": "Wolf Hollow I Power, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 756,
+   "per_fuel_MW": {
+    "gas": 756
+   },
+   "lat": 32.3342199999597,
+   "lon": -97.7316860001069,
+   "period": 202502
+  },
+  {
+   "id": "55187",
+   "name": "Channelview Cogeneration Plant",
+   "utility": "EIF Channelview Cogeneration LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 750,
+   "per_fuel_MW": {
+    "gas": 750
+   },
+   "lat": 29.8369519996944,
+   "lon": -95.1217439995677,
+   "period": 202502
+  },
+  {
+   "id": "55047",
+   "name": "Pasadena Cogeneration",
+   "utility": "Pasadena Cogeneration LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 746,
+   "per_fuel_MW": {
+    "gas": 746
+   },
+   "lat": 29.7247499996894,
+   "lon": -95.1764790002093,
+   "period": 202502
+  },
+  {
+   "id": "56291",
+   "name": "Horse Hollow Wind Energy Center",
+   "utility": "FPL Energy Horse Hollow LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 735.5,
+   "per_fuel_MW": {
+    "wind": 735.5
+   },
+   "lat": 32.2140240000831,
+   "lon": -100.057119999627,
+   "period": 202502
+  },
+  {
+   "id": "55320",
+   "name": "Wise County Power LLC",
+   "utility": "Wise County Power Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 735,
+   "per_fuel_MW": {
+    "gas": 735
+   },
+   "lat": 33.0583000001702,
+   "lon": -97.9102999998504,
+   "period": 202502
+  },
+  {
+   "id": "58005",
+   "name": "Rayburn Energy Station LLC",
+   "utility": "Rayburn Energy Station LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 685,
+   "per_fuel_MW": {
+    "gas": 685
+   },
+   "lat": 33.5825729997051,
+   "lon": -96.6178930001887,
+   "period": 202502
+  },
+  {
+   "id": "3504",
+   "name": "Stryker Creek",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine; Petroleum Liquids;",
+   "capacity_MW": 679,
+   "per_fuel_MW": {
+    "gas": 669
+   },
+   "lat": 31.939849999832,
+   "lon": -94.989833999842,
+   "period": 202502
+  },
+  {
+   "id": "55123",
+   "name": "Magic Valley Generating Station",
+   "utility": "Calpine Corp-Magic Valley",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 667,
+   "per_fuel_MW": {
+    "gas": 667
+   },
+   "lat": 26.3403000002284,
+   "lon": -98.1900000000761,
+   "period": 202502
+  },
+  {
+   "id": "56763",
+   "name": "Capricorn Ridge Wind LLC",
+   "utility": "Capricorn Ridge Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 662.5,
+   "per_fuel_MW": {
+    "wind": 662.5
+   },
+   "lat": 31.9519580003153,
+   "lon": -101.018936000015,
+   "period": 202502
+  },
+  {
+   "id": "6178",
+   "name": "Coleto Creek",
+   "utility": "Coleto Creek Power LP",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 655,
+   "per_fuel_MW": {
+    "coal": 655
+   },
+   "lat": 28.7127999999431,
+   "lon": -97.2141669997102,
+   "period": 202502
+  },
+  {
+   "id": "3441",
+   "name": "Nueces Bay",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 633,
+   "per_fuel_MW": {
+    "gas": 633
+   },
+   "lat": 27.8194120001004,
+   "lon": -97.4192029995818,
+   "period": 202502
+  },
+  {
+   "id": "3490",
+   "name": "Graham",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 629,
+   "per_fuel_MW": {
+    "gas": 629
+   },
+   "lat": 33.1343999998788,
+   "lon": -98.6117000003678,
+   "period": 202502
+  },
+  {
+   "id": "55470",
+   "name": "Green Power 2",
+   "utility": "South Houston Green Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 624,
+   "per_fuel_MW": {
+    "gas": 624
+   },
+   "lat": 29.3780970001429,
+   "lon": -94.9327730004183,
+   "period": 202502
+  },
+  {
+   "id": "50625",
+   "name": "ExxonMobil Beaumont Refinery",
+   "utility": "ExxonMobil Oil Corp",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine; Other Gases",
+   "capacity_MW": 610.6,
+   "per_fuel_MW": {
+    "gas": 605.6,
+    "other": 5
+   },
+   "lat": 30.0635999997317,
+   "lon": -94.0752999997804,
+   "period": 202502
+  },
+  {
+   "id": "56350",
+   "name": "Colorado Bend Energy Center",
+   "utility": "CER Colorado Bend Energy Partners LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine;",
+   "capacity_MW": 608,
+   "per_fuel_MW": {
+    "gas": 608
+   },
+   "lat": 29.2877999997465,
+   "lon": -96.0683000002206,
+   "period": 202502
+  },
+  {
+   "id": "3601",
+   "name": "Sim Gideon",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 607,
+   "per_fuel_MW": {
+    "gas": 607
+   },
+   "lat": 30.145600000002,
+   "lon": -97.27080000041,
+   "period": 202502
+  },
+  {
+   "id": "7900",
+   "name": "Sand Hill",
+   "utility": "Austin Energy",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine;",
+   "capacity_MW": 595.8,
+   "per_fuel_MW": {
+    "gas": 595.8
+   },
+   "lat": 30.2097999998824,
+   "lon": -97.6129000004066,
+   "period": 202502
+  },
+  {
+   "id": "3628",
+   "name": "R W Miller",
+   "utility": "RW Miller Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+   "capacity_MW": 587,
+   "per_fuel_MW": {
+    "gas": 587
+   },
+   "lat": 32.6580999998708,
+   "lon": -98.3102999996949,
+   "period": 202502
+  },
+  {
+   "id": "58835",
+   "name": "Elk Station",
+   "utility": "Golden Spread Electric Cooperative, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 583.1,
+   "per_fuel_MW": {
+    "gas": 583.1
+   },
+   "lat": 33.8649999997396,
+   "lon": -101.843332999553,
+   "period": 202502
+  },
+  {
+   "id": "66420",
+   "name": "Five Wells Solar Center - Hybrid",
+   "utility": "Five Wells Solar Center, LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 579,
+   "per_fuel_MW": {
+    "solar": 320,
+    "battery": 259
+   },
+   "lat": 30.9986469998024,
+   "lon": -97.2590170000509,
+   "period": 202502
+  },
+  {
+   "id": "55168",
+   "name": "Bastrop Energy Center",
+   "utility": "Bastrop Energy Partners, LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 575,
+   "per_fuel_MW": {
+    "gas": 575
+   },
+   "lat": 30.1457999998628,
+   "lon": -97.5500000001452,
+   "period": 202502
+  },
+  {
+   "id": "62562",
+   "name": "High Lonesome Wind Power, LLC Hybrid",
+   "utility": "High Lonesome Wind Power, LLC",
+   "fuel": "wind",
+   "tech": "Batteries; Onshore Wind Turbine;",
+   "capacity_MW": 550.5,
+   "per_fuel_MW": {
+    "wind": 499.5,
+    "battery": 51
+   },
+   "lat": 31.171652000321,
+   "lon": -101.881147000228,
+   "period": 202502
+  },
+  {
+   "id": "55357",
+   "name": "Jack Fusco Energy Center",
+   "utility": "Brazos Valley Energy",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 538,
+   "per_fuel_MW": {
+    "gas": 538
+   },
+   "lat": 29.4731000003847,
+   "lon": -95.6243999998894,
+   "period": 202502
+  },
+  {
+   "id": "55098",
+   "name": "Frontera Energy Center",
+   "utility": "Frontera Generation Limited Partnership",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 535,
+   "per_fuel_MW": {
+    "gas": 535
+   },
+   "lat": 26.2079999998779,
+   "lon": -98.3992000003101,
+   "period": 202502
+  },
+  {
+   "id": "8063",
+   "name": "DeCordova Steam Electric Station",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "natural gas",
+   "tech": "Batteries; Natural Gas Fired Combustion Turbine;",
+   "capacity_MW": 534,
+   "per_fuel_MW": {
+    "gas": 274,
+    "battery": 260
+   },
+   "lat": 32.4030560001644,
+   "lon": -97.7005559996433,
+   "period": 202502
+  },
+  {
+   "id": "63209",
+   "name": "Aviator Wind",
+   "utility": "Aviator Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 525,
+   "per_fuel_MW": {
+    "wind": 525
+   },
+   "lat": 31.7926100000774,
+   "lon": -100.697290000336,
+   "period": 202502
+  },
+  {
+   "id": "7512",
+   "name": "Arthur Von Rosenberg",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 518,
+   "per_fuel_MW": {
+    "gas": 518
+   },
+   "lat": 29.2570459999563,
+   "lon": -98.3840450001571,
+   "period": 202502
+  },
+  {
+   "id": "4937",
+   "name": "Thomas C Ferguson",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 516,
+   "per_fuel_MW": {
+    "gas": 516
+   },
+   "lat": 30.5580000001386,
+   "lon": -98.3721000003145,
+   "period": 202502
+  },
+  {
+   "id": "55664",
+   "name": "Harrison County Power Project",
+   "utility": "Northeast Texas Elec Coop, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 514.4,
+   "per_fuel_MW": {
+    "gas": 514.4
+   },
+   "lat": 32.3958000002773,
+   "lon": -94.4367000000257,
+   "period": 202502
+  },
+  {
+   "id": "55154",
+   "name": "Lost Pines 1 Power Project",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 510,
+   "per_fuel_MW": {
+    "gas": 510
+   },
+   "lat": 30.1478000002523,
+   "lon": -97.2713999995614,
+   "period": 202502
+  },
+  {
+   "id": "55206",
+   "name": "Corpus Christi Energy Center",
+   "utility": "Corpus Christi Cogeneration LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 506,
+   "per_fuel_MW": {
+    "gas": 506
+   },
+   "lat": 27.8138999997098,
+   "lon": -97.4283000004106,
+   "period": 202502
+  },
+  {
+   "id": "56806",
+   "name": "Cedar Bayou 4",
+   "utility": "NRG Cedar Bayou Development Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 504,
+   "per_fuel_MW": {
+    "gas": 504
+   },
+   "lat": 29.7516449997176,
+   "lon": -94.9231199999209,
+   "period": 202502
+  },
+  {
+   "id": "10789",
+   "name": "Sabine River Operations",
+   "utility": "The Dow Chemical Company",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 502,
+   "per_fuel_MW": {
+    "gas": 502
+   },
+   "lat": 30.0551999999726,
+   "lon": -93.7578999995808,
+   "period": 202502
+  },
+  {
+   "id": "64710",
+   "name": "White Mesa Wind",
+   "utility": "White Mesa Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 500.6,
+   "per_fuel_MW": {
+    "wind": 500.6
+   },
+   "lat": 30.9099999996797,
+   "lon": -101.263000000007,
+   "period": 202502
+  },
+  {
+   "id": "3457",
+   "name": "Lewis Creek",
+   "utility": "Entergy Texas Inc.",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 500,
+   "per_fuel_MW": {
+    "gas": 500
+   },
+   "lat": 30.4356000000144,
+   "lon": -95.5214000003539,
+   "period": 202502
+  },
+  {
+   "id": "64233",
+   "name": "Hecate Energy Frye Solar LLC",
+   "utility": "Repsol Renewables NA",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 500,
+   "per_fuel_MW": {
+    "solar": 500
+   },
+   "lat": 34.406700000191,
+   "lon": -101.596609999795,
+   "period": 202502
+  },
+  {
+   "id": "64927",
+   "name": "Aktina Solar",
+   "utility": "Hecate Energy Ramsey, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 500,
+   "per_fuel_MW": {
+    "solar": 500
+   },
+   "lat": 29.1220000000755,
+   "lon": -96.2759999998814,
+   "period": 202502
+  },
+  {
+   "id": "65763",
+   "name": "Young Wind",
+   "utility": "Young Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 500,
+   "per_fuel_MW": {
+    "wind": 500
+   },
+   "lat": 33.1192130001426,
+   "lon": -98.8525769996149,
+   "period": 202502
+  },
+  {
+   "id": "55545",
+   "name": "Hidalgo Energy Center",
+   "utility": "Calpine Corp - Hidalgo",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 495,
+   "per_fuel_MW": {
+    "gas": 495
+   },
+   "lat": 26.3417199999763,
+   "lon": -98.1757589997921,
+   "period": 202502
+  },
+  {
+   "id": "62853",
+   "name": "Maverick Creek Wind",
+   "utility": "Algonquin Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 491.6,
+   "per_fuel_MW": {
+    "wind": 491.6
+   },
+   "lat": 31.2625459999152,
+   "lon": -99.8439609999689,
+   "period": 202502
+  },
+  {
+   "id": "50815",
+   "name": "Odyssey Energy Altura Cogen, LLC",
+   "utility": "Odyssey Operating Services",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 473.1,
+   "per_fuel_MW": {
+    "gas": 473.1
+   },
+   "lat": 29.8160999997171,
+   "lon": -95.1077299999627,
+   "period": 202502
+  },
+  {
+   "id": "56349",
+   "name": "Quail Run Energy Center",
+   "utility": "Quail Run Energy Partners, LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 472.2,
+   "per_fuel_MW": {
+    "gas": 472.2
+   },
+   "lat": 31.8414000003666,
+   "lon": -102.314999999876,
+   "period": 202502
+  },
+  {
+   "id": "64347",
+   "name": "Mockingbird Solar Center",
+   "utility": "Mockingbird Solar Center, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 471,
+   "per_fuel_MW": {
+    "solar": 471
+   },
+   "lat": 33.3916700001187,
+   "lon": -95.4251900004367,
+   "period": 202502
+  },
+  {
+   "id": "64164",
+   "name": "Azure Sky Wind Project, LLC Hybrid",
+   "utility": "Azure Sky Wind Project, LLC",
+   "fuel": "wind",
+   "tech": "Batteries; Onshore Wind Turbine;",
+   "capacity_MW": 470.2,
+   "per_fuel_MW": {
+    "wind": 350.2,
+    "battery": 120
+   },
+   "lat": 33.1691389996333,
+   "lon": -99.2660059999817,
+   "period": 202502
+  },
+  {
+   "id": "55065",
+   "name": "Mustang Station",
+   "utility": "Golden Spread Electric Cooperative, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 464.8,
+   "per_fuel_MW": {
+    "gas": 464.8
+   },
+   "lat": 32.9728000000233,
+   "lon": -102.741699999683,
+   "period": 202502
+  },
+  {
+   "id": "55313",
+   "name": "Ingleside Cogeneration",
+   "utility": "Ingleside Cogeneration LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 460,
+   "per_fuel_MW": {
+    "gas": 460
+   },
+   "lat": 27.8827779997101,
+   "lon": -97.2427780001496,
+   "period": 202502
+  },
+  {
+   "id": "63255",
+   "name": "2W Permian Solar Project Hybrid",
+   "utility": "2W Permian Solar, LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 460,
+   "per_fuel_MW": {
+    "solar": 420,
+    "battery": 40
+   },
+   "lat": 32.116387999761,
+   "lon": -102.528332999612,
+   "period": 202502
+  },
+  {
+   "id": "56326",
+   "name": "Mustang Station Unit 4",
+   "utility": "Golden Spread Electric Cooperative, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 459.3,
+   "per_fuel_MW": {
+    "gas": 459.3
+   },
+   "lat": 32.9745539996602,
+   "lon": -102.743606999962,
+   "period": 202502
+  },
+  {
+   "id": "52120",
+   "name": "Freeport Energy",
+   "utility": "Olin Blue Cube Operations",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 458,
+   "per_fuel_MW": {
+    "gas": 458
+   },
+   "lat": 28.9912889998324,
+   "lon": -95.4074810000995,
+   "period": 202502
+  },
+  {
+   "id": "3484",
+   "name": "Nichols",
+   "utility": "Southwestern Public Service Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 457,
+   "per_fuel_MW": {
+    "gas": 457
+   },
+   "lat": 35.2833569999962,
+   "lon": -101.746423000027,
+   "period": 202502
+  },
+  {
+   "id": "62561",
+   "name": "Roadrunner, LLC Hybrid",
+   "utility": "Roadrunner Solar, LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 450,
+   "per_fuel_MW": {
+    "solar": 400,
+    "battery": 50
+   },
+   "lat": 31.2194439999636,
+   "lon": -102.192219999693,
+   "period": 202502
+  },
+  {
+   "id": "63688",
+   "name": "Topaz Generating",
+   "utility": "ProEnergy Services",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 445,
+   "per_fuel_MW": {
+    "gas": 445
+   },
+   "lat": 29.4263890000126,
+   "lon": -94.9766670001589,
+   "period": 202502
+  },
+  {
+   "id": "55015",
+   "name": "Sweeny Cogen Facility",
+   "utility": "Sweeny Cogeneration LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 436,
+   "per_fuel_MW": {
+    "gas": 436
+   },
+   "lat": 29.0728000002475,
+   "lon": -95.7449999999822,
+   "period": 202502
+  },
+  {
+   "id": "64133",
+   "name": "Old 300 Solar Center, LLC",
+   "utility": "Old 300 Solar Center, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 430,
+   "per_fuel_MW": {
+    "solar": 430
+   },
+   "lat": 29.333550000147,
+   "lon": -95.8254399996282,
+   "period": 202502
+  },
+  {
+   "id": "62587",
+   "name": "Mesquite Star",
+   "utility": "Mesquite Star Special LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 418.9,
+   "per_fuel_MW": {
+    "wind": 418.9
+   },
+   "lat": 32.2559780002005,
+   "lon": -100.320308999965,
+   "period": 202502
+  },
+  {
+   "id": "52088",
+   "name": "Texas City Power Plant",
+   "utility": "Texas City Cogeneration LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 418,
+   "per_fuel_MW": {
+    "gas": 418
+   },
+   "lat": 29.3786969999725,
+   "lon": -94.943828999608,
+   "period": 202502
+  },
+  {
+   "id": "55176",
+   "name": "Eastman Cogeneration Facility",
+   "utility": "Eastman Cogeneration LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 417.2,
+   "per_fuel_MW": {
+    "gas": 417.2
+   },
+   "lat": 32.4481000001752,
+   "lon": -94.6903000003386,
+   "period": 202502
+  },
+  {
+   "id": "65271",
+   "name": "Noble Solar",
+   "utility": "BT Noble Solar, LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 400,
+   "per_fuel_MW": {
+    "solar": 275,
+    "battery": 125
+   },
+   "lat": 33.2615049998329,
+   "lon": -97.2380570002937,
+   "period": 202502
+  },
+  {
+   "id": "65762",
+   "name": "Waco Solar",
+   "utility": "Waco Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 400,
+   "per_fuel_MW": {
+    "solar": 400
+   },
+   "lat": 31.7104219999358,
+   "lon": -96.8186760000096,
+   "period": 202502
+  },
+  {
+   "id": "3492",
+   "name": "Morgan Creek",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "petroleum",
+   "tech": "Petroleum Liquids",
+   "capacity_MW": 397,
+   "per_fuel_MW": {},
+   "lat": 32.3358000002716,
+   "lon": -100.915600000021,
+   "period": 202502
+  },
+  {
+   "id": "3576",
+   "name": "Ray Olinger",
+   "utility": "City of Garland - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+   "capacity_MW": 395,
+   "per_fuel_MW": {
+    "gas": 395
+   },
+   "lat": 33.068054999948,
+   "lon": -96.4524810002884,
+   "period": 202502
+  },
+  {
+   "id": "6183",
+   "name": "San Miguel",
+   "utility": "San Miguel Electric Coop, Inc",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 391,
+   "per_fuel_MW": {
+    "coal": 391
+   },
+   "lat": 28.704399999689,
+   "lon": -98.4775000000485,
+   "period": 202502
+  },
+  {
+   "id": "54676",
+   "name": "Oyster Creek Unit VIII",
+   "utility": "Dow Chemical Company-Oyster Creek VIII",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 379,
+   "per_fuel_MW": {
+    "gas": 379
+   },
+   "lat": 28.9802000002096,
+   "lon": -95.3419999998896,
+   "period": 202502
+  },
+  {
+   "id": "57983",
+   "name": "Stephens Ranch Wind Energy LLC",
+   "utility": "Stephens Ranch Wind Energy LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 376,
+   "per_fuel_MW": {
+    "wind": 376
+   },
+   "lat": 32.926388999795,
+   "lon": -101.647777999751,
+   "period": 202502
+  },
+  {
+   "id": "64149",
+   "name": "Western Trail Wind, LLC",
+   "utility": "Orsted Onshore North America",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 366.6,
+   "per_fuel_MW": {
+    "wind": 366.6
+   },
+   "lat": 33.852450000349,
+   "lon": -99.0650900000915,
+   "period": 202502
+  },
+  {
+   "id": "55086",
+   "name": "Gregory Power Plant",
+   "utility": "Gregory Power Partners LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 366,
+   "per_fuel_MW": {
+    "gas": 366
+   },
+   "lat": 27.8892900002052,
+   "lon": -97.2584170000012,
+   "period": 202502
+  },
+  {
+   "id": "55223",
+   "name": "Ennis Power Company LLC",
+   "utility": "Ennis Power Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 359.5,
+   "per_fuel_MW": {
+    "gas": 359.5
+   },
+   "lat": 32.3200000003312,
+   "lon": -96.6749999996432,
+   "period": 202502
+  },
+  {
+   "id": "65372",
+   "name": "Mark One Power Station",
+   "utility": "ProEnergy Services",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 356.8,
+   "per_fuel_MW": {
+    "gas": 356.8
+   },
+   "lat": 29.2271090002073,
+   "lon": -95.4307559996664,
+   "period": 202502
+  },
+  {
+   "id": "65373",
+   "name": "Brotman Power Station",
+   "utility": "ProEnergy Services",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 356.8,
+   "per_fuel_MW": {
+    "gas": 356.8
+   },
+   "lat": 29.3641280003146,
+   "lon": -95.4350680001667,
+   "period": 202502
+  },
+  {
+   "id": "63335",
+   "name": "HO Clarke Generating",
+   "utility": "ProEnergy Services",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 356,
+   "per_fuel_MW": {
+    "gas": 356
+   },
+   "lat": 29.6453600003324,
+   "lon": -95.4516900003827,
+   "period": 202502
+  },
+  {
+   "id": "64383",
+   "name": "Braes Bayou Plant",
+   "utility": "ProEnergy Services",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 356,
+   "per_fuel_MW": {
+    "gas": 356
+   },
+   "lat": 29.4802770000285,
+   "lon": -95.6202770004333,
+   "period": 202502
+  },
+  {
+   "id": "66604",
+   "name": "Remy Jade Power Station",
+   "utility": "ProEnergy Services",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 356,
+   "per_fuel_MW": {
+    "gas": 356
+   },
+   "lat": 29.848371999675,
+   "lon": -95.0163980002604,
+   "period": 202502
+  },
+  {
+   "id": "58562",
+   "name": "Montana Power Station",
+   "utility": "El Paso Electric Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 352,
+   "per_fuel_MW": {
+    "gas": 352
+   },
+   "lat": 31.8238889999469,
+   "lon": -106.211943999608,
+   "period": 202502
+  },
+  {
+   "id": "61402",
+   "name": "Foard City Wind",
+   "utility": "Foard City Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 350.3,
+   "per_fuel_MW": {
+    "wind": 350.3
+   },
+   "lat": 33.9153150002252,
+   "lon": -99.7402779996447,
+   "period": 202502
+  },
+  {
+   "id": "66157",
+   "name": "Red Tailed Hawk Solar LLC",
+   "utility": "Acciona Energy USA Global, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 350,
+   "per_fuel_MW": {
+    "solar": 350
+   },
+   "lat": 29.1592280002569,
+   "lon": -96.1415719999564,
+   "period": 202502
+  },
+  {
+   "id": "3476",
+   "name": "Knox Lee",
+   "utility": "Southwestern Electric Power Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 342,
+   "per_fuel_MW": {
+    "gas": 342
+   },
+   "lat": 32.3766000002851,
+   "lon": -94.6414999998958,
+   "period": 202502
+  },
+  {
+   "id": "62809",
+   "name": "BMP Wind (TX)",
+   "utility": "BMP Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 340,
+   "per_fuel_MW": {
+    "wind": 340
+   },
+   "lat": 32.2893799996835,
+   "lon": -99.2915960002566,
+   "period": 202502
+  },
+  {
+   "id": "62620",
+   "name": "Sage Draw Wind",
+   "utility": "Sage Draw Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 338.4,
+   "per_fuel_MW": {
+    "wind": 338.4
+   },
+   "lat": 33.3034970000401,
+   "lon": -101.657220000361,
+   "period": 202502
+  },
+  {
+   "id": "64639",
+   "name": "TG East",
+   "utility": "TG East Wind Project LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 336,
+   "per_fuel_MW": {
+    "wind": 336
+   },
+   "lat": 33.7463230001921,
+   "lon": -99.6655160002798,
+   "period": 202502
+  },
+  {
+   "id": "3464",
+   "name": "Greens Bayou",
+   "utility": "NRG Texas Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 327,
+   "per_fuel_MW": {
+    "gas": 327
+   },
+   "lat": 29.8222010003706,
+   "lon": -95.2194289999437,
+   "period": 202502
+  },
+  {
+   "id": "60264",
+   "name": "Bacliff",
+   "utility": "PHR Holdings LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 324,
+   "per_fuel_MW": {
+    "gas": 324
+   },
+   "lat": 29.4923300000973,
+   "lon": -94.9848300001289,
+   "period": 202502
+  },
+  {
+   "id": "65644",
+   "name": "Lumina II Solar Project",
+   "utility": "IP Lumina II, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 321,
+   "per_fuel_MW": {
+    "solar": 321
+   },
+   "lat": 32.8835279997275,
+   "lon": -100.746388999631,
+   "period": 202502
+  },
+  {
+   "id": "3494",
+   "name": "Permian Basin",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 320,
+   "per_fuel_MW": {
+    "gas": 320
+   },
+   "lat": 31.5838999998814,
+   "lon": -102.963300000044,
+   "period": 202502
+  },
+  {
+   "id": "64859",
+   "name": "IP Radian, LLC",
+   "utility": "IP Radian, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 320,
+   "per_fuel_MW": {
+    "solar": 320
+   },
+   "lat": 31.5481000003308,
+   "lon": -99.1871999999049,
+   "period": 202502
+  },
+  {
+   "id": "65645",
+   "name": "Lumina Solar Project",
+   "utility": "IP Lumina, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 320,
+   "per_fuel_MW": {
+    "solar": 320
+   },
+   "lat": 32.9010809997226,
+   "lon": -100.982694999708,
+   "period": 202502
+  },
+  {
+   "id": "3485",
+   "name": "Plant X",
+   "utility": "Southwestern Public Service Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 318,
+   "per_fuel_MW": {
+    "gas": 318
+   },
+   "lat": 34.1661000001153,
+   "lon": -102.411399999764,
+   "period": 202502
+  },
+  {
+   "id": "63905",
+   "name": "Azure Sky Solar",
+   "utility": "Azure Sky Solar Project, LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 316.2,
+   "per_fuel_MW": {
+    "solar": 225,
+    "battery": 91.2
+   },
+   "lat": 33.0216010002128,
+   "lon": -99.6146300003562,
+   "period": 202502
+  },
+  {
+   "id": "60271",
+   "name": "Canyon Wind Project, LLC",
+   "utility": "Canyon Wind Project, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 308.8,
+   "per_fuel_MW": {
+    "wind": 308.8
+   },
+   "lat": 32.6310730001311,
+   "lon": -101.008494000221,
+   "period": 202502
+  },
+  {
+   "id": "61343",
+   "name": "Karankawa Wind LLC",
+   "utility": "Avangrid Power LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 307.1,
+   "per_fuel_MW": {
+    "wind": 307.1
+   },
+   "lat": 28.1701790003491,
+   "lon": -97.8175069999329,
+   "period": 202502
+  },
+  {
+   "id": "66801",
+   "name": "Fence Post Solar Hybrid Project, LLC",
+   "utility": "Fence Post Solar Project, LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 306,
+   "per_fuel_MW": {
+    "solar": 236,
+    "battery": 70
+   },
+   "lat": 32.0728440002773,
+   "lon": -96.2239299997521,
+   "period": 202502
+  },
+  {
+   "id": "67006",
+   "name": "Greasewood II LLC",
+   "utility": "Greasewood II LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 306,
+   "per_fuel_MW": {
+    "solar": 306
+   },
+   "lat": 31.1040899997241,
+   "lon": -102.606249999934,
+   "period": 202502
+  },
+  {
+   "id": "63328",
+   "name": "Juno Solar Project",
+   "utility": "SE Juno, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 305.6,
+   "per_fuel_MW": {
+    "solar": 305.6
+   },
+   "lat": 32.7728890003329,
+   "lon": -101.391019999905,
+   "period": 202502
+  },
+  {
+   "id": "7030",
+   "name": "Major Oak Power",
+   "utility": "Major Oak Power, LLC",
+   "fuel": "coal",
+   "tech": "Conventional Steam Coal",
+   "capacity_MW": 305,
+   "per_fuel_MW": {
+    "coal": 305
+   },
+   "lat": 31.0919249996795,
+   "lon": -96.6950299996379,
+   "period": 202502
+  },
+  {
+   "id": "10692",
+   "name": "ExxonMobil Baytown Turbine",
+   "utility": "Exxon Mobil Refining and Supply Co.",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 305,
+   "per_fuel_MW": {
+    "gas": 305
+   },
+   "lat": 29.7591240003769,
+   "lon": -95.0096479999267,
+   "period": 202502
+  },
+  {
+   "id": "62038",
+   "name": "Santa Rita East",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 302.4,
+   "per_fuel_MW": {
+    "wind": 302.4
+   },
+   "lat": 31.2079880001638,
+   "lon": -101.110786999576,
+   "period": 202502
+  },
+  {
+   "id": "64165",
+   "name": "Priddy Wind Project",
+   "utility": "Engie North America",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 302.4,
+   "per_fuel_MW": {
+    "wind": 302.4
+   },
+   "lat": 31.5481000003308,
+   "lon": -98.4949099997367,
+   "period": 202502
+  },
+  {
+   "id": "65162",
+   "name": "Lacy Creek Wind Energy Center",
+   "utility": "Lacy Creek Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 301.3,
+   "per_fuel_MW": {
+    "wind": 301.3
+   },
+   "lat": 31.7299059997724,
+   "lon": -101.298940000015,
+   "period": 202502
+  },
+  {
+   "id": "65546",
+   "name": "Inertia Wind Project",
+   "utility": "Inertia Wind Project, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 301,
+   "per_fuel_MW": {
+    "wind": 301
+   },
+   "lat": 33.1868819996315,
+   "lon": -99.5953319997572,
+   "period": 202502
+  },
+  {
+   "id": "65760",
+   "name": "El Sauz Ranch Wind, LLC",
+   "utility": "El Sauz Ranch Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 301,
+   "per_fuel_MW": {
+    "wind": 301
+   },
+   "lat": 26.5008829999826,
+   "lon": -97.5990640001786,
+   "period": 202502
+  },
+  {
+   "id": "10298",
+   "name": "Bayou Cogen Plant",
+   "utility": "Air Liquide Large Industries U S LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "gas": 300
+   },
+   "lat": 29.6224999996947,
+   "lon": -95.0457999996468,
+   "period": 202502
+  },
+  {
+   "id": "57260",
+   "name": "Cedro Hill Wind LLC",
+   "utility": "Cedro Hill Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 27.5761110000249,
+   "lon": -98.905277999756,
+   "period": 202502
+  },
+  {
+   "id": "58471",
+   "name": "Ector County Energy Center",
+   "utility": "Ector County Generation, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "gas": 300
+   },
+   "lat": 32.0691669996537,
+   "lon": -102.585556000316,
+   "period": 202502
+  },
+  {
+   "id": "60087",
+   "name": "South Plains II",
+   "utility": "Onward Energy",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 34.1969620001813,
+   "lon": -101.381493999629,
+   "period": 202502
+  },
+  {
+   "id": "60987",
+   "name": "Santa Rita Wind Energy",
+   "utility": "BHE Renewables, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 31.181377000113,
+   "lon": -101.318786999711,
+   "period": 202502
+  },
+  {
+   "id": "61921",
+   "name": "Tahoka Wind",
+   "utility": "Tahoka Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 33.1509040001376,
+   "lon": -101.679187999699,
+   "period": 202502
+  },
+  {
+   "id": "61969",
+   "name": "Torrecillas Wind Energy, LLC",
+   "utility": "Torrecillas Wind Energy, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 27.6144109997519,
+   "lon": -98.794500000215,
+   "period": 202502
+  },
+  {
+   "id": "62259",
+   "name": "Ranchero Wind Farm LLC",
+   "utility": "Ranchero Wind Farm LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 30.5949079997155,
+   "lon": -101.453021000366,
+   "period": 202502
+  },
+  {
+   "id": "62755",
+   "name": "Prospero Solar",
+   "utility": "Prospero Energy Project, LLC (Longroad)",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "solar": 300
+   },
+   "lat": 32.2878729999873,
+   "lon": -102.840399000386,
+   "period": 202502
+  },
+  {
+   "id": "63100",
+   "name": "Prairie Hill Wind Project",
+   "utility": "Engie North America",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 31.5498679999324,
+   "lon": -96.9040719996881,
+   "period": 202502
+  },
+  {
+   "id": "63194",
+   "name": "Delilah Solar Energy LLC",
+   "utility": "Invenergy Services LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "solar": 300
+   },
+   "lat": 33.2844180000966,
+   "lon": -95.1635569998503,
+   "period": 202502
+  },
+  {
+   "id": "65048",
+   "name": "Hubbard Wind",
+   "utility": "Hubbard Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "wind": 300
+   },
+   "lat": 31.7747100001576,
+   "lon": -96.8281960004376,
+   "period": 202502
+  },
+  {
+   "id": "65979",
+   "name": "Peregrine Solar",
+   "utility": "Consolidated Edison Development Inc.",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "solar": 300
+   },
+   "lat": 28.4279000001636,
+   "lon": -97.4544000003234,
+   "period": 202502
+  },
+  {
+   "id": "67175",
+   "name": "Rodeo Ranch Energy Storage",
+   "utility": "Rodeo Ranch Energy Storage, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 300,
+   "per_fuel_MW": {
+    "battery": 300
+   },
+   "lat": 31.3599999997078,
+   "lon": -103.330000000279,
+   "period": 202502
+  },
+  {
+   "id": "59621",
+   "name": "TX Jumbo Road Wind",
+   "utility": "TX Jumbo Road Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 299.7,
+   "per_fuel_MW": {
+    "wind": 299.7
+   },
+   "lat": 34.7199999997088,
+   "lon": -102.253333000224,
+   "period": 202502
+  },
+  {
+   "id": "65306",
+   "name": "Limestone Wind Project",
+   "utility": "Limestone Wind Project, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 299.2,
+   "per_fuel_MW": {
+    "wind": 299.2
+   },
+   "lat": 31.8534599998012,
+   "lon": -96.6244579996762,
+   "period": 202502
+  },
+  {
+   "id": "58765",
+   "name": "Miami Wind Energy Center",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 288.6,
+   "per_fuel_MW": {
+    "wind": 288.6
+   },
+   "lat": 35.653888999724,
+   "lon": -100.538611000153,
+   "period": 202502
+  },
+  {
+   "id": "3443",
+   "name": "Victoria",
+   "utility": "Victoria WLE, LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 288,
+   "per_fuel_MW": {
+    "gas": 288
+   },
+   "lat": 28.7882999998839,
+   "lon": -97.0100000004,
+   "period": 202502
+  },
+  {
+   "id": "56708",
+   "name": "CFB Power Plant",
+   "utility": "Formosa Plastics Corp",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 286.2,
+   "per_fuel_MW": {
+    "gas": 286.2
+   },
+   "lat": 28.6502779999366,
+   "lon": -96.5397220003217,
+   "period": 202502
+  },
+  {
+   "id": "56661",
+   "name": "Pattern Gulf Wind",
+   "utility": "Pattern Operators LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 283.2,
+   "per_fuel_MW": {
+    "wind": 283.2
+   },
+   "lat": 27.0010999996752,
+   "lon": -97.5993999997393,
+   "period": 202502
+  },
+  {
+   "id": "55581",
+   "name": "King Mountain Wind Ranch 1",
+   "utility": "FPL Energy Upton Wind LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 278,
+   "per_fuel_MW": {
+    "wind": 278
+   },
+   "lat": 31.2092000002234,
+   "lon": -102.241699999653,
+   "period": 202502
+  },
+  {
+   "id": "60414",
+   "name": "Bethel Wind Farm LLC",
+   "utility": "Southern Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 276,
+   "per_fuel_MW": {
+    "wind": 276
+   },
+   "lat": 34.5753110000416,
+   "lon": -102.474698000409,
+   "period": 202502
+  },
+  {
+   "id": "63739",
+   "name": "Las Majadas Wind Farm",
+   "utility": "Las Majadas Wind Farm, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 272.6,
+   "per_fuel_MW": {
+    "wind": 272.6
+   },
+   "lat": 26.3648430000327,
+   "lon": -97.5453410002135,
+   "period": 202502
+  },
+  {
+   "id": "63738",
+   "name": "Helena Wind",
+   "utility": "Helena Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 268.2,
+   "per_fuel_MW": {
+    "wind": 268.2
+   },
+   "lat": 28.6219590001221,
+   "lon": -97.9376249999768,
+   "period": 202502
+  },
+  {
+   "id": "54817",
+   "name": "Johnson County",
+   "utility": "Johnson County Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 267,
+   "per_fuel_MW": {
+    "gas": 267
+   },
+   "lat": 32.3993999999616,
+   "lon": -97.4078000000626,
+   "period": 202502
+  },
+  {
+   "id": "59246",
+   "name": "Goodnight",
+   "utility": "FGE Goodnight I, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 265.5,
+   "per_fuel_MW": {
+    "wind": 265.5
+   },
+   "lat": 35.0938889996874,
+   "lon": -101.326111000155,
+   "period": 202502
+  },
+  {
+   "id": "50043",
+   "name": "Houston Chemical Complex Battleground",
+   "utility": "Oxy Vinyls LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 263,
+   "per_fuel_MW": {
+    "gas": 263
+   },
+   "lat": 29.7314000000236,
+   "lon": -95.0838999996538,
+   "period": 202502
+  },
+  {
+   "id": "63320",
+   "name": "Titan Solar Project",
+   "utility": "SE Titan, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 260,
+   "per_fuel_MW": {
+    "solar": 260
+   },
+   "lat": 31.7003799998975,
+   "lon": -104.45813599969,
+   "period": 202502
+  },
+  {
+   "id": "56981",
+   "name": "Pyron Wind Farm LLC Hybrid",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Batteries; Onshore Wind Turbine;",
+   "capacity_MW": 258.9,
+   "per_fuel_MW": {
+    "wind": 249,
+    "battery": 9.9
+   },
+   "lat": 32.5885999997205,
+   "lon": -100.672799999703,
+   "period": 202502
+  },
+  {
+   "id": "58766",
+   "name": "Wake Wind Energy Center",
+   "utility": "Southern Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 257,
+   "per_fuel_MW": {
+    "wind": 257
+   },
+   "lat": 33.8250000000801,
+   "lon": -101.099722000166,
+   "period": 202502
+  },
+  {
+   "id": "66902",
+   "name": "Roadrunner Wind Farm",
+   "utility": "Roadrunner Crossing Wind Farm, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 256,
+   "per_fuel_MW": {
+    "wind": 256
+   },
+   "lat": 32.437418000274,
+   "lon": -99.1089069998391,
+   "period": 202502
+  },
+  {
+   "id": "62483",
+   "name": "Taygete Energy Project LLC",
+   "utility": "Taygete Energy Project LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 255,
+   "per_fuel_MW": {
+    "solar": 255
+   },
+   "lat": 31.1652450002385,
+   "lon": -103.12586800023,
+   "period": 202502
+  },
+  {
+   "id": "62804",
+   "name": "Greasewood Solar",
+   "utility": "Concho Bluff LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 255,
+   "per_fuel_MW": {
+    "solar": 255
+   },
+   "lat": 31.0309960000364,
+   "lon": -102.488209000049,
+   "period": 202502
+  },
+  {
+   "id": "60902",
+   "name": "Dermott Wind",
+   "utility": "Dermott Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 253,
+   "per_fuel_MW": {
+    "wind": 253
+   },
+   "lat": 32.8637690003236,
+   "lon": -100.97512799959,
+   "period": 202502
+  },
+  {
+   "id": "65654",
+   "name": "Texas Solar Nova 1",
+   "utility": "Texas Solar Nova 1, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 252,
+   "per_fuel_MW": {
+    "solar": 252
+   },
+   "lat": 33.3206369997634,
+   "lon": -100.982200999964,
+   "period": 202502
+  },
+  {
+   "id": "57617",
+   "name": "Hidalgo Wind Farm LLC",
+   "utility": "Hidalgo Wind Farm LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "wind": 250
+   },
+   "lat": 26.4655560000695,
+   "lon": -98.4111109998174,
+   "period": 202502
+  },
+  {
+   "id": "60901",
+   "name": "Willow Springs Wind Farm",
+   "utility": "Willow Springs Windfarm, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "wind": 250
+   },
+   "lat": 33.3453660000283,
+   "lon": -99.624257000016,
+   "period": 202502
+  },
+  {
+   "id": "61346",
+   "name": "RE Maplewood",
+   "utility": "Onward Energy",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 30.9766380000924,
+   "lon": -102.257752999781,
+   "period": 202502
+  },
+  {
+   "id": "61906",
+   "name": "Phoebe Solar",
+   "utility": "Phoebe Energy Project, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 31.8434220000848,
+   "lon": -102.868295000249,
+   "period": 202502
+  },
+  {
+   "id": "61920",
+   "name": "Galloway 1 Solar Farm",
+   "utility": "225DD 8me LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 31.4359319998921,
+   "lon": -99.7966130004188,
+   "period": 202502
+  },
+  {
+   "id": "62142",
+   "name": "Amadeus Wind Farm",
+   "utility": "Amadeus Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "wind": 250
+   },
+   "lat": 32.9673600002196,
+   "lon": -100.56428000007,
+   "period": 202502
+  },
+  {
+   "id": "63211",
+   "name": "Samson Solar Energy",
+   "utility": "Invenergy Services LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 33.2510200001802,
+   "lon": -95.1934260001153,
+   "period": 202502
+  },
+  {
+   "id": "63840",
+   "name": "Sparta Solar",
+   "utility": "Sparta Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 28.6552769997256,
+   "lon": -98.0013880000536,
+   "period": 202502
+  },
+  {
+   "id": "63883",
+   "name": "Samson Solar Energy III LLC",
+   "utility": "Invenergy Services LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 33.4264979999038,
+   "lon": -95.3574489997704,
+   "period": 202502
+  },
+  {
+   "id": "64325",
+   "name": "Prospero Solar II",
+   "utility": "Prospero Solar II, LLC (Longroad)",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 32.2758139999868,
+   "lon": -102.844806000422,
+   "period": 202502
+  },
+  {
+   "id": "65303",
+   "name": "Sun Valley Solar Project",
+   "utility": "Sun Valley Solar LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 31.8697599998908,
+   "lon": -97.0149799998238,
+   "period": 202502
+  },
+  {
+   "id": "65631",
+   "name": "Pisgah Ridge Solar, LLC",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 31.8967370002304,
+   "lon": -96.4673269997466,
+   "period": 202502
+  },
+  {
+   "id": "66821",
+   "name": "Orion III Solar Project",
+   "utility": "Ben Milam Solar 3 LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 30.960218999916,
+   "lon": -97.1245199996307,
+   "period": 202502
+  },
+  {
+   "id": "66941",
+   "name": "Orion II Solar Project",
+   "utility": "Ben Milam Solar 2 LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 31.0290279997562,
+   "lon": -96.934782999852,
+   "period": 202502
+  },
+  {
+   "id": "67019",
+   "name": "Copperhead Solar, LLC",
+   "utility": "National Grid Renewables",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 150,
+    "battery": 100
+   },
+   "lat": 31.4500000003232,
+   "lon": -96.8599999996723,
+   "period": 202502
+  },
+  {
+   "id": "67424",
+   "name": "Hopkins Energy LLC",
+   "utility": "Hopkins Energy LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 250,
+   "per_fuel_MW": {
+    "solar": 250
+   },
+   "lat": 33.2173200003083,
+   "lon": -95.4621000003902,
+   "period": 202502
+  },
+  {
+   "id": "59475",
+   "name": "Palo Duro Wind",
+   "utility": "Palo Duro Wind",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 249.9,
+   "per_fuel_MW": {
+    "wind": 249.9
+   },
+   "lat": 36.2438889998472,
+   "lon": -101.00138900006,
+   "period": 202502
+  },
+  {
+   "id": "60104",
+   "name": "Javelina Wind Energy, LLC",
+   "utility": "Javelina Wind Energy, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 249.7,
+   "per_fuel_MW": {
+    "wind": 249.7
+   },
+   "lat": 27.3200000000661,
+   "lon": -98.9999999996938,
+   "period": 202502
+  },
+  {
+   "id": "59193",
+   "name": "Chapman Ranch Wind I",
+   "utility": "Chapman Ranch Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 249,
+   "per_fuel_MW": {
+    "wind": 249
+   },
+   "lat": 27.5925000001482,
+   "lon": -97.5008330001796,
+   "period": 202502
+  },
+  {
+   "id": "65937",
+   "name": "Porter Solar, LLC (TX)",
+   "utility": "Porter Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 245,
+   "per_fuel_MW": {
+    "solar": 245
+   },
+   "lat": 33.3104459997967,
+   "lon": -97.3697729998505,
+   "period": 202502
+  },
+  {
+   "id": "50304",
+   "name": "Shell Deer Park",
+   "utility": "Deer Park Refinery Limited Partnership (DPRLP)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; All Other;",
+   "capacity_MW": 243,
+   "per_fuel_MW": {
+    "gas": 153,
+    "other": 90
+   },
+   "lat": 29.7231849996327,
+   "lon": -95.1288560002996,
+   "period": 202502
+  },
+  {
+   "id": "62765",
+   "name": "El Campo Wind",
+   "utility": "El Campo Wind, LLC (Longroad)",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 242.8,
+   "per_fuel_MW": {
+    "wind": 242.8
+   },
+   "lat": 33.7321810001707,
+   "lon": -99.7263920000863,
+   "period": 202502
+  },
+  {
+   "id": "63655",
+   "name": "Coyote Wind LLC",
+   "utility": "EDF Renewable Asset Holdings, Inc.",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 242.5,
+   "per_fuel_MW": {
+    "wind": 242.5
+   },
+   "lat": 32.8487900002928,
+   "lon": -100.86645800017,
+   "period": 202502
+  },
+  {
+   "id": "56337",
+   "name": "Sweetwater Wind 4 LLC",
+   "utility": "Leeward Asset Management, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 241,
+   "per_fuel_MW": {
+    "wind": 241
+   },
+   "lat": 32.3122000001796,
+   "lon": -100.530300000045,
+   "period": 202502
+  },
+  {
+   "id": "62249",
+   "name": "Misae Solar",
+   "utility": "Misae Lessee LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 240,
+   "per_fuel_MW": {
+    "solar": 240
+   },
+   "lat": 34.3805320000294,
+   "lon": -100.099625000021,
+   "period": 202502
+  },
+  {
+   "id": "63985",
+   "name": "Fort Bend Solar LLC",
+   "utility": "Acciona Energy USA Global, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 240,
+   "per_fuel_MW": {
+    "solar": 240
+   },
+   "lat": 29.5603110003595,
+   "lon": -95.9803600004035,
+   "period": 202502
+  },
+  {
+   "id": "64239",
+   "name": "7V Solar Ranch",
+   "utility": "7V Solar Ranch, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 240,
+   "per_fuel_MW": {
+    "solar": 240
+   },
+   "lat": 29.8069839997466,
+   "lon": -97.0740799997709,
+   "period": 202502
+  },
+  {
+   "id": "66471",
+   "name": "Eiffel Solar Project",
+   "utility": "Paris Farm Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 240,
+   "per_fuel_MW": {
+    "solar": 240
+   },
+   "lat": 33.599167000138,
+   "lon": -95.5250559998298,
+   "period": 202502
+  },
+  {
+   "id": "62855",
+   "name": "West Raymond Wind Farm LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 239.8,
+   "per_fuel_MW": {
+    "wind": 239.8
+   },
+   "lat": 26.3766509999578,
+   "lon": -97.9930450001586,
+   "period": 202502
+  },
+  {
+   "id": "62783",
+   "name": "Blackjack Creek Wind Farm",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 239.6,
+   "per_fuel_MW": {
+    "wind": 239.6
+   },
+   "lat": 28.2078000001858,
+   "lon": -97.522673000369,
+   "period": 202502
+  },
+  {
+   "id": "50973",
+   "name": "Motiva Enterprises Port Arthur Refinery",
+   "utility": "Motiva Enterprises LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine; Other Gases",
+   "capacity_MW": 239.4,
+   "per_fuel_MW": {
+    "gas": 199,
+    "other": 40.4
+   },
+   "lat": 29.8884619999282,
+   "lon": -93.9509839999372,
+   "period": 202502
+  },
+  {
+   "id": "3507",
+   "name": "Trinidad (TX)",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine; Petroleum Liquids;",
+   "capacity_MW": 239,
+   "per_fuel_MW": {
+    "gas": 235
+   },
+   "lat": 32.1245189996373,
+   "lon": -96.1012769997904,
+   "period": 202502
+  },
+  {
+   "id": "50109",
+   "name": "Paris Energy Center",
+   "utility": "Paris Generation LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 239,
+   "per_fuel_MW": {
+    "gas": 239
+   },
+   "lat": 33.6968000000364,
+   "lon": -95.557700000212,
+   "period": 202502
+  },
+  {
+   "id": "65998",
+   "name": "True North Solar, LLC",
+   "utility": "Avangrid Power LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 238.8,
+   "per_fuel_MW": {
+    "solar": 238.8
+   },
+   "lat": 31.4685640003167,
+   "lon": -96.7941679998331,
+   "period": 202502
+  },
+  {
+   "id": "61865",
+   "name": "Rio Bravo Windpower, LLC",
+   "utility": "Rio Bravo Windpower, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 237.6,
+   "per_fuel_MW": {
+    "wind": 237.6
+   },
+   "lat": 26.6490000001238,
+   "lon": -99.0386999997504,
+   "period": 202502
+  },
+  {
+   "id": "56484",
+   "name": "Buffalo Gap 2 Wind Farm",
+   "utility": "AES Distributed Energy",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 232.5,
+   "per_fuel_MW": {
+    "wind": 232.5
+   },
+   "lat": 32.318221000207,
+   "lon": -100.176985999776,
+   "period": 202502
+  },
+  {
+   "id": "56979",
+   "name": "Panther Creek Wind Farm Three",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 231.5,
+   "per_fuel_MW": {
+    "wind": 231.5
+   },
+   "lat": 31.9925000003248,
+   "lon": -101.116700000034,
+   "period": 202502
+  },
+  {
+   "id": "59005",
+   "name": "Mariah del Norte",
+   "utility": "BHE Renewables, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 230.4,
+   "per_fuel_MW": {
+    "wind": 230.4
+   },
+   "lat": 34.667500000295,
+   "lon": -102.57777800031,
+   "period": 202502
+  },
+  {
+   "id": "60338",
+   "name": "Electra Wind Farm",
+   "utility": "Electra Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 230,
+   "per_fuel_MW": {
+    "wind": 230
+   },
+   "lat": 34.1029429998756,
+   "lon": -99.1187460001094,
+   "period": 202502
+  },
+  {
+   "id": "60339",
+   "name": "Horse Creek Wind Farm",
+   "utility": "Horse Creek Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 230,
+   "per_fuel_MW": {
+    "wind": 230
+   },
+   "lat": 33.3500000001748,
+   "lon": -99.5400000003373,
+   "period": 202502
+  },
+  {
+   "id": "65034",
+   "name": "Bernard Creek Solar",
+   "utility": "Bernard Creek Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 230,
+   "per_fuel_MW": {
+    "solar": 230
+   },
+   "lat": 29.4552700001106,
+   "lon": -96.0882530002224,
+   "period": 202502
+  },
+  {
+   "id": "59066",
+   "name": "Bruennings Breeze Wind Farm",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 228,
+   "per_fuel_MW": {
+    "wind": 228
+   },
+   "lat": 26.5222219999838,
+   "lon": -97.6911109995583,
+   "period": 202502
+  },
+  {
+   "id": "62945",
+   "name": "Fighting Jays Solar Project",
+   "utility": "AP Solar 2, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 227.5,
+   "per_fuel_MW": {
+    "solar": 227.5
+   },
+   "lat": 29.3584249998999,
+   "lon": -95.7463880004025,
+   "period": 202502
+  },
+  {
+   "id": "58614",
+   "name": "Patriot Wind Farm",
+   "utility": "Avangrid Power LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 226.1,
+   "per_fuel_MW": {
+    "wind": 226.1
+   },
+   "lat": 27.5804889996796,
+   "lon": -97.6400770003951,
+   "period": 202502
+  },
+  {
+   "id": "61643",
+   "name": "Denton Energy Center",
+   "utility": "City of Denton - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Internal Combustion Engine",
+   "capacity_MW": 225.6,
+   "per_fuel_MW": {
+    "gas": 225.6
+   },
+   "lat": 33.214868999995,
+   "lon": -97.2096919999015,
+   "period": 202502
+  },
+  {
+   "id": "62411",
+   "name": "Griffin Trail Wind",
+   "utility": "Griffin Trail Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 225.6,
+   "per_fuel_MW": {
+    "wind": 225.6
+   },
+   "lat": 33.6093130000926,
+   "lon": -99.5822899997476,
+   "period": 202502
+  },
+  {
+   "id": "62845",
+   "name": "ENGIE Long Draw Solar LLC",
+   "utility": "Engie North America",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 225,
+   "per_fuel_MW": {
+    "solar": 225
+   },
+   "lat": 32.7413830000978,
+   "lon": -101.621793000364,
+   "period": 202502
+  },
+  {
+   "id": "66540",
+   "name": "Shamrock Wind",
+   "utility": "Shamrock Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 223.9,
+   "per_fuel_MW": {
+    "wind": 223.9
+   },
+   "lat": 30.9360000002386,
+   "lon": -101.606999999711,
+   "period": 202502
+  },
+  {
+   "id": "67284",
+   "name": "Ganado Solar",
+   "utility": "Enel Green Power NA, Inc.",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 221,
+   "per_fuel_MW": {
+    "solar": 150.5,
+    "battery": 70.5
+   },
+   "lat": 29.10914700018,
+   "lon": -96.52876099977,
+   "period": 202502
+  },
+  {
+   "id": "62416",
+   "name": "Cranell Wind Farm LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 220,
+   "per_fuel_MW": {
+    "wind": 220
+   },
+   "lat": 28.1977780001685,
+   "lon": -97.4449529996903,
+   "period": 202502
+  },
+  {
+   "id": "59391",
+   "name": "Red Gate Power Plant",
+   "utility": "South Texas Electric Coop, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Internal Combustion Engine",
+   "capacity_MW": 219.6,
+   "per_fuel_MW": {
+    "gas": 219.6
+   },
+   "lat": 26.4511109999474,
+   "lon": -98.1775000003897,
+   "period": 202502
+  },
+  {
+   "id": "56152",
+   "name": "Freeport Energy Center",
+   "utility": "Dow Chemical Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 219.4,
+   "per_fuel_MW": {
+    "gas": 219.4
+   },
+   "lat": 28.988760999922,
+   "lon": -95.3954170004313,
+   "period": 202502
+  },
+  {
+   "id": "58242",
+   "name": "Pattern Panhandle Wind LLC",
+   "utility": "Pattern Operators LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 218,
+   "per_fuel_MW": {
+    "wind": 218
+   },
+   "lat": 35.4274999999195,
+   "lon": -101.253056000154,
+   "period": 202502
+  },
+  {
+   "id": "55064",
+   "name": "Black Hawk Station",
+   "utility": "Borger Energy Associates LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 216.4,
+   "per_fuel_MW": {
+    "gas": 216.4
+   },
+   "lat": 35.6956999999487,
+   "lon": -101.359999999944,
+   "period": 202502
+  },
+  {
+   "id": "52176",
+   "name": "C R Wing Cogen Plant",
+   "utility": "BHER Power Resources, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 212,
+   "per_fuel_MW": {
+    "gas": 212
+   },
+   "lat": 32.2731780001206,
+   "lon": -101.42238600037,
+   "period": 202502
+  },
+  {
+   "id": "58596",
+   "name": "Grandview Wind Farm, LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 211.2,
+   "per_fuel_MW": {
+    "wind": 211.2
+   },
+   "lat": 35.2383330000729,
+   "lon": -101.310832999979,
+   "period": 202502
+  },
+  {
+   "id": "59332",
+   "name": "Mesquite Creek Wind",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 211.2,
+   "per_fuel_MW": {
+    "wind": 211.2
+   },
+   "lat": 32.69999999994,
+   "lon": -101.741111000342,
+   "period": 202502
+  },
+  {
+   "id": "63030",
+   "name": "Canadian Breaks, LLC",
+   "utility": "Canadian Breaks LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 210.1,
+   "per_fuel_MW": {
+    "wind": 210.1
+   },
+   "lat": 35.200164000117,
+   "lon": -102.315517000085,
+   "period": 202502
+  },
+  {
+   "id": "62207",
+   "name": "Reloj del Sol Wind Farm",
+   "utility": "Reloj del Sol Wind Farm LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 209.4,
+   "per_fuel_MW": {
+    "wind": 209.4
+   },
+   "lat": 27.0302800001662,
+   "lon": -99.3883879997817,
+   "period": 202502
+  },
+  {
+   "id": "56593",
+   "name": "Roscoe Wind Farm LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 209,
+   "per_fuel_MW": {
+    "wind": 209
+   },
+   "lat": 32.4694000002309,
+   "lon": -100.666400000072,
+   "period": 202502
+  },
+  {
+   "id": "66323",
+   "name": "King Creek Wind Farm 2, LLC",
+   "utility": "King Creek Wind Farm 2, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 209,
+   "per_fuel_MW": {
+    "wind": 209
+   },
+   "lat": 33.1824139999148,
+   "lon": -99.3898880003549,
+   "period": 202502
+  },
+  {
+   "id": "3548",
+   "name": "Decker Creek",
+   "utility": "Austin Energy",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 208,
+   "per_fuel_MW": {
+    "gas": 208
+   },
+   "lat": 30.3033000001954,
+   "lon": -97.6127999999492,
+   "period": 202502
+  },
+  {
+   "id": "59943",
+   "name": "Rattlesnake Den",
+   "utility": "SunEdison LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 207.2,
+   "per_fuel_MW": {
+    "wind": 207.2
+   },
+   "lat": 31.7432500002787,
+   "lon": -101.49340699987,
+   "period": 202502
+  },
+  {
+   "id": "56984",
+   "name": "Inadale Wind Farm LLC Hybrid",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Batteries; Onshore Wind Turbine;",
+   "capacity_MW": 206.9,
+   "per_fuel_MW": {
+    "wind": 197,
+    "battery": 9.9
+   },
+   "lat": 32.4968999996456,
+   "lon": -100.579699999639,
+   "period": 202502
+  },
+  {
+   "id": "6243",
+   "name": "Dansby",
+   "utility": "City of Bryan - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+   "capacity_MW": 204.2,
+   "per_fuel_MW": {
+    "gas": 204.2
+   },
+   "lat": 30.7216999997867,
+   "lon": -96.460799999894,
+   "period": 202502
+  },
+  {
+   "id": "59034",
+   "name": "Shannon Wind",
+   "utility": "Shannon Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 204,
+   "per_fuel_MW": {
+    "wind": 204
+   },
+   "lat": 33.5097220000308,
+   "lon": -98.3608330003394,
+   "period": 202502
+  },
+  {
+   "id": "67738",
+   "name": "Citadel Battery Storage Plant",
+   "utility": "Citadel BESS LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 204,
+   "per_fuel_MW": {
+    "battery": 204
+   },
+   "lat": 29.8740399999268,
+   "lon": -95.01824400044,
+   "period": 202502
+  },
+  {
+   "id": "64075",
+   "name": "Taygete II Energy Project",
+   "utility": "West Texas Solar Project II LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 203.8,
+   "per_fuel_MW": {
+    "solar": 203.8
+   },
+   "lat": 31.1859999999197,
+   "lon": -103.127999999742,
+   "period": 202502
+  },
+  {
+   "id": "64258",
+   "name": "AP Sunray LLC",
+   "utility": "AP Sunray LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 203.5,
+   "per_fuel_MW": {
+    "solar": 203.5
+   },
+   "lat": 29.2918449998316,
+   "lon": -99.6123680002499,
+   "period": 202502
+  },
+  {
+   "id": "57802",
+   "name": "Magic Valley Wind Farm I LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 203,
+   "per_fuel_MW": {
+    "wind": 203
+   },
+   "lat": 26.4752780003415,
+   "lon": -97.6911109995583,
+   "period": 202502
+  },
+  {
+   "id": "66009",
+   "name": "Crossett Power Management LLC",
+   "utility": "Crossett Power Management LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 203,
+   "per_fuel_MW": {
+    "battery": 203
+   },
+   "lat": 31.1916870000022,
+   "lon": -102.317226999822,
+   "period": 202502
+  },
+  {
+   "id": "67095",
+   "name": "Montgomery Ranch Wind Farm, LLC",
+   "utility": "Montgomery Ranch Wind Farm, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 202.5,
+   "per_fuel_MW": {
+    "wind": 202.5
+   },
+   "lat": 33.8412719997241,
+   "lon": -99.6578050002214,
+   "period": 202502
+  },
+  {
+   "id": "3630",
+   "name": "Pearsall",
+   "utility": "South Texas Electric Coop, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Internal Combustion Engine",
+   "capacity_MW": 201.6,
+   "per_fuel_MW": {
+    "gas": 201.6
+   },
+   "lat": 28.9274999998365,
+   "lon": -99.0918999996588,
+   "period": 202502
+  },
+  {
+   "id": "56795",
+   "name": "Penascal Wind Power LLC",
+   "utility": "Avangrid Power LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 201.6,
+   "per_fuel_MW": {
+    "wind": 201.6
+   },
+   "lat": 27.0221119998118,
+   "lon": -97.498478000187,
+   "period": 202502
+  },
+  {
+   "id": "57095",
+   "name": "Penascal II Wind Project LLC",
+   "utility": "Avangrid Power LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 201.6,
+   "per_fuel_MW": {
+    "wind": 201.6
+   },
+   "lat": 27.1225289999229,
+   "lon": -97.5573720002698,
+   "period": 202502
+  },
+  {
+   "id": "57752",
+   "name": "Los Vientos Wind 1B",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 201.6,
+   "per_fuel_MW": {
+    "wind": 201.6
+   },
+   "lat": 26.3489200001525,
+   "lon": -97.6667999999237,
+   "period": 202502
+  },
+  {
+   "id": "63101",
+   "name": "Las Lomas Wind Project",
+   "utility": "Engie North America",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 201.6,
+   "per_fuel_MW": {
+    "wind": 201.6
+   },
+   "lat": 26.6984199998704,
+   "lon": -99.0574500001782,
+   "period": 202502
+  },
+  {
+   "id": "59063",
+   "name": "Stella Wind Farm",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 201,
+   "per_fuel_MW": {
+    "wind": 201
+   },
+   "lat": 26.9416669999704,
+   "lon": -97.6425000001598,
+   "period": 202502
+  },
+  {
+   "id": "67601",
+   "name": "Diversion Wind Energy LLC",
+   "utility": "Southwestern Electric Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200.6,
+   "per_fuel_MW": {
+    "wind": 200.6
+   },
+   "lat": 33.7192619997763,
+   "lon": -99.0230130002182,
+   "period": 202502
+  },
+  {
+   "id": "66137",
+   "name": "Zier Solar",
+   "utility": "Cypress Creek Renewables",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 200.4,
+   "per_fuel_MW": {
+    "solar": 160,
+    "battery": 40.4
+   },
+   "lat": 29.3509919996828,
+   "lon": -100.56202800001,
+   "period": 202502
+  },
+  {
+   "id": "62566",
+   "name": "Blue Summit III Wind",
+   "utility": "Blue Summit III Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200.2,
+   "per_fuel_MW": {
+    "wind": 200.2
+   },
+   "lat": 34.1704880001266,
+   "lon": -99.5634359995627,
+   "period": 202502
+  },
+  {
+   "id": "62909",
+   "name": "Raymond Wind Farm, LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200.2,
+   "per_fuel_MW": {
+    "wind": 200.2
+   },
+   "lat": 26.364152999886,
+   "lon": -97.7804389997956,
+   "period": 202502
+  },
+  {
+   "id": "64591",
+   "name": "El Algodon Alto Wind Farm, LLC",
+   "utility": "El Algodon Alto Wind Farm, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200.2,
+   "per_fuel_MW": {
+    "wind": 200.2
+   },
+   "lat": 27.9927059996218,
+   "lon": -97.7439830003019,
+   "period": 202502
+  },
+  {
+   "id": "57212",
+   "name": "Papalote Creek II LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200.1,
+   "per_fuel_MW": {
+    "wind": 200.1
+   },
+   "lat": 27.9958000003165,
+   "lon": -97.2967000003063,
+   "period": 202502
+  },
+  {
+   "id": "59442",
+   "name": "Logans Gap Wind LLC",
+   "utility": "Pattern Operators LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200.1,
+   "per_fuel_MW": {
+    "wind": 200.1
+   },
+   "lat": 31.8224999999724,
+   "lon": -98.690555999775,
+   "period": 202502
+  },
+  {
+   "id": "56395",
+   "name": "Mesquite Wind Power LLC",
+   "utility": "Mesquite Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 32.6256000003297,
+   "lon": -99.4928000000269,
+   "period": 202502
+  },
+  {
+   "id": "56483",
+   "name": "Post Oak Wind LLC",
+   "utility": "Mesquite Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 32.5144000003067,
+   "lon": -99.6564000000827,
+   "period": 202502
+  },
+  {
+   "id": "57751",
+   "name": "Los Vientos Wind 1A",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 26.3307199996463,
+   "lon": -97.5856999999537,
+   "period": 202502
+  },
+  {
+   "id": "58772",
+   "name": "Longhorn Wind",
+   "utility": "Boralex US Operations LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 34.3111109997334,
+   "lon": -101.251111000241,
+   "period": 202502
+  },
+  {
+   "id": "58773",
+   "name": "TX Hereford Wind",
+   "utility": "Boralex US Operations LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 34.7480560002249,
+   "lon": -102.174444000307,
+   "period": 202502
+  },
+  {
+   "id": "59068",
+   "name": "Colbeck's Corner, LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 35.2541840000305,
+   "lon": -101.186621999717,
+   "period": 202502
+  },
+  {
+   "id": "59320",
+   "name": "Los Vientos Windpower III",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 26.3886109998499,
+   "lon": -98.8061110001467,
+   "period": 202502
+  },
+  {
+   "id": "59321",
+   "name": "Los Vientos Windpower IV",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 26.3805560001741,
+   "lon": -98.8183329999987,
+   "period": 202502
+  },
+  {
+   "id": "59384",
+   "name": "South Plains Wind Phase I",
+   "utility": "Evergreen Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 34.0805559997939,
+   "lon": -101.323611000398,
+   "period": 202502
+  },
+  {
+   "id": "60645",
+   "name": "Javelina Wind Energy II, LLC",
+   "utility": "Javelina Wind Energy II, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 27.4399999998319,
+   "lon": -98.9100000003352,
+   "period": 202502
+  },
+  {
+   "id": "61212",
+   "name": "Flat Top Wind I",
+   "utility": "BHE Renewables, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 31.6845109997923,
+   "lon": -98.6033580002977,
+   "period": 202502
+  },
+  {
+   "id": "61962",
+   "name": "Holstein 1 Solar Farm",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 32.1041250000946,
+   "lon": -100.162374999597,
+   "period": 202502
+  },
+  {
+   "id": "62141",
+   "name": "Rambler",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 31.5170000002717,
+   "lon": -100.59999999997,
+   "period": 202502
+  },
+  {
+   "id": "62258",
+   "name": "Mesteno",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "wind": 200
+   },
+   "lat": 26.5236920003092,
+   "lon": -98.7455220003953,
+   "period": 202502
+  },
+  {
+   "id": "64026",
+   "name": "ANSON Solar Center, LLC",
+   "utility": "Engie North America",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 32.8110409999965,
+   "lon": -99.9174899996227,
+   "period": 202502
+  },
+  {
+   "id": "64447",
+   "name": "Brazoria West",
+   "utility": "Brazoria West Solar Project, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 29.1910000001821,
+   "lon": -95.6630000003869,
+   "period": 202502
+  },
+  {
+   "id": "64538",
+   "name": "Corazon Energy LLC",
+   "utility": "Corazon Energy LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 27.6346770001381,
+   "lon": -99.2583290002585,
+   "period": 202502
+  },
+  {
+   "id": "65308",
+   "name": "Horizon Solar",
+   "utility": "Leeward Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 28.9377000000845,
+   "lon": -99.1076499998385,
+   "period": 202502
+  },
+  {
+   "id": "65333",
+   "name": "Shakes Solar",
+   "utility": "Cypress Creek Renewables",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 28.4420800002331,
+   "lon": -99.7558200003103,
+   "period": 202502
+  },
+  {
+   "id": "65489",
+   "name": "Dickens",
+   "utility": "Engie North America",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "battery": 200
+   },
+   "lat": 33.7810769996462,
+   "lon": -100.8832269998,
+   "period": 202502
+  },
+  {
+   "id": "65490",
+   "name": "Hydra",
+   "utility": "Engie North America",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "battery": 200
+   },
+   "lat": 30.9929050003758,
+   "lon": -102.289474999899,
+   "period": 202502
+  },
+  {
+   "id": "65491",
+   "name": "Paleo",
+   "utility": "Engie North America",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "battery": 200
+   },
+   "lat": 33.8894619996911,
+   "lon": -101.801580000443,
+   "period": 202502
+  },
+  {
+   "id": "65660",
+   "name": "Texas Solar Nova 2",
+   "utility": "Texas Solar Nova 2, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 33.3205599997429,
+   "lon": -100.981663999664,
+   "period": 202502
+  },
+  {
+   "id": "66046",
+   "name": "Brazoria County Solar Project (Danciger)",
+   "utility": "Brazoria County Solar Project, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 29.177899999846,
+   "lon": -95.7612000004237,
+   "period": 202502
+  },
+  {
+   "id": "66262",
+   "name": "Cutlass Solar II",
+   "utility": "Cutlass II Solar LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 29.3899999999004,
+   "lon": -95.780000000182,
+   "period": 202502
+  },
+  {
+   "id": "66338",
+   "name": "Callisto I Energy Center",
+   "utility": "Callisto I Energy Center",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "battery": 200
+   },
+   "lat": 29.6468109998142,
+   "lon": -95.4505389997889,
+   "period": 202502
+  },
+  {
+   "id": "66859",
+   "name": "Orion I Solar Project",
+   "utility": "Ben Milam Solar 1 LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 30.9965109999398,
+   "lon": -97.0015050001691,
+   "period": 202502
+  },
+  {
+   "id": "67236",
+   "name": "Anemoi Energy Storage",
+   "utility": "Anemoi Energy Storage, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "battery": 200
+   },
+   "lat": 26.4499999997526,
+   "lon": -98.4799999998061,
+   "period": 202502
+  },
+  {
+   "id": "67237",
+   "name": "Ebony Energy Storage",
+   "utility": "Ebony Energy Storage, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "battery": 200
+   },
+   "lat": 29.6200879996648,
+   "lon": -98.3344809996332,
+   "period": 202502
+  },
+  {
+   "id": "68180",
+   "name": "Big Elm Solar",
+   "utility": "Big Elm Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 200,
+   "per_fuel_MW": {
+    "solar": 200
+   },
+   "lat": 31.1410510001917,
+   "lon": -97.2169760001626,
+   "period": 202502
+  },
+  {
+   "id": "61782",
+   "name": "Live Oak Wind Project",
+   "utility": "Engie North America",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 199.5,
+   "per_fuel_MW": {
+    "wind": 199.5
+   },
+   "lat": 31.0485569997933,
+   "lon": -100.623113999879,
+   "period": 202502
+  },
+  {
+   "id": "63222",
+   "name": "Impact Solar 1",
+   "utility": "Lightsource Renewable Energy Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 198.5,
+   "per_fuel_MW": {
+    "solar": 198.5
+   },
+   "lat": 33.4678030001355,
+   "lon": -95.3708559996531,
+   "period": 202502
+  },
+  {
+   "id": "63624",
+   "name": "La Chalupa, LLC",
+   "utility": "Acciona Energy USA Global, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 198.5,
+   "per_fuel_MW": {
+    "wind": 198.5
+   },
+   "lat": 26.2498879999366,
+   "lon": -97.5118420004119,
+   "period": 202502
+  },
+  {
+   "id": "57520",
+   "name": "Trinity Hills",
+   "utility": "Trinity Hills Wind Farm LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 198,
+   "per_fuel_MW": {
+    "wind": 198
+   },
+   "lat": 33.383611000299,
+   "lon": -98.7119440000527,
+   "period": 202502
+  },
+  {
+   "id": "65790",
+   "name": "Castle Gap Wind",
+   "utility": "Castle Gap Wind Power, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 196.8,
+   "per_fuel_MW": {
+    "wind": 196.8
+   },
+   "lat": 31.3937600001021,
+   "lon": -98.3593600004287,
+   "period": 202502
+  },
+  {
+   "id": "59972",
+   "name": "Bearkat",
+   "utility": "Bearkat Wind Energy 1, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 196.7,
+   "per_fuel_MW": {
+    "wind": 196.7
+   },
+   "lat": 31.7272369997423,
+   "lon": -101.582000000339,
+   "period": 202502
+  },
+  {
+   "id": "65947",
+   "name": "Tres Bahias",
+   "utility": "Tres Bahias Solar Power, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 196.3,
+   "per_fuel_MW": {
+    "solar": 196.3
+   },
+   "lat": 28.6885100003778,
+   "lon": -96.5098329999652,
+   "period": 202502
+  },
+  {
+   "id": "63892",
+   "name": "Lily Solar Hybrid",
+   "utility": "Lily Solar, LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 196,
+   "per_fuel_MW": {
+    "solar": 146,
+    "battery": 50
+   },
+   "lat": 32.5332729996695,
+   "lon": -96.4289849998903,
+   "period": 202502
+  },
+  {
+   "id": "68145",
+   "name": "Angelo Solar",
+   "utility": "Angelo Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 195,
+   "per_fuel_MW": {
+    "solar": 195
+   },
+   "lat": 31.5100000000933,
+   "lon": -100.580000000113,
+   "period": 202502
+  },
+  {
+   "id": "58775",
+   "name": "Spinning Spur Wind III",
+   "utility": "Boralex US Operations LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 194,
+   "per_fuel_MW": {
+    "wind": 194
+   },
+   "lat": 35.2950000001835,
+   "lon": -102.721110999647,
+   "period": 202502
+  },
+  {
+   "id": "65410",
+   "name": "Cunningham Storage",
+   "utility": "Acciona Energy USA Global, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 190,
+   "per_fuel_MW": {
+    "battery": 190
+   },
+   "lat": 33.0043050001286,
+   "lon": -96.0759130003696,
+   "period": 202502
+  },
+  {
+   "id": "60123",
+   "name": "Castle Gap Solar Hybrid",
+   "utility": "Upton County Solar 2 LLC",
+   "fuel": "solar",
+   "tech": "Batteries; Solar Photovoltaic;",
+   "capacity_MW": 189.9,
+   "per_fuel_MW": {
+    "solar": 180,
+    "battery": 9.9
+   },
+   "lat": 31.2549999997313,
+   "lon": -102.271999999913,
+   "period": 202502
+  },
+  {
+   "id": "56961",
+   "name": "Notrees Windpower Hybrid",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Batteries; Onshore Wind Turbine;",
+   "capacity_MW": 188.5,
+   "per_fuel_MW": {
+    "wind": 152.5,
+    "battery": 36
+   },
+   "lat": 31.9949999996883,
+   "lon": -102.828333000169,
+   "period": 202502
+  },
+  {
+   "id": "57927",
+   "name": "Baffin Wind",
+   "utility": "Avangrid Power LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 188,
+   "per_fuel_MW": {
+    "wind": 188
+   },
+   "lat": 27.1846519996961,
+   "lon": -97.5981800004468,
+   "period": 202502
+  },
+  {
+   "id": "3631",
+   "name": "Sam Rayburn",
+   "utility": "South Texas Electric Coop, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Petroleum Liquids;",
+   "capacity_MW": 184.8,
+   "per_fuel_MW": {
+    "gas": 183
+   },
+   "lat": 28.894699999972,
+   "lon": -97.1349999999584,
+   "period": 202502
+  },
+  {
+   "id": "3609",
+   "name": "Leon Creek",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 184,
+   "per_fuel_MW": {
+    "gas": 184
+   },
+   "lat": 29.3525000002638,
+   "lon": -98.5761000001184,
+   "period": 202502
+  },
+  {
+   "id": "66321",
+   "name": "King Creek Wind Farm 1, LLC",
+   "utility": "King Creek Wind Farm 1, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 184,
+   "per_fuel_MW": {
+    "wind": 184
+   },
+   "lat": 33.2680000002844,
+   "lon": -99.4679999997724,
+   "period": 202502
+  },
+  {
+   "id": "62356",
+   "name": "Lockett Windfarm",
+   "utility": "Lockett Windfarm, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 183.8,
+   "per_fuel_MW": {
+    "wind": 183.8
+   },
+   "lat": 34.072250999945,
+   "lon": -99.2646760001861,
+   "period": 202502
+  },
+  {
+   "id": "56111",
+   "name": "Brazos Wind Farm",
+   "utility": "Shell Wind Energy Inc.",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 182.4,
+   "per_fuel_MW": {
+    "wind": 182.4
+   },
+   "lat": 32.9479299998949,
+   "lon": -101.147783999569,
+   "period": 202502
+  },
+  {
+   "id": "62836",
+   "name": "Maryneal Windpower",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 182.4,
+   "per_fuel_MW": {
+    "wind": 182.4
+   },
+   "lat": 32.1993659999191,
+   "lon": -100.49190799996,
+   "period": 202502
+  },
+  {
+   "id": "61368",
+   "name": "Midway Solar - TX",
+   "utility": "Midway Solar",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 182,
+   "per_fuel_MW": {
+    "solar": 182
+   },
+   "lat": 30.9955029999924,
+   "lon": -102.223536999754,
+   "period": 202502
+  },
+  {
+   "id": "58720",
+   "name": "Pattern Panhandle Wind 2 LLC",
+   "utility": "Pattern Operators LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 181.7,
+   "per_fuel_MW": {
+    "wind": 181.7
+   },
+   "lat": 35.4427780003008,
+   "lon": -101.372778000363,
+   "period": 202502
+  },
+  {
+   "id": "59118",
+   "name": "Cameron Wind 1 LLC",
+   "utility": "Cameron Wind 1 LLC",
+   "fuel": "wind",
+   "tech": "Batteries; Onshore Wind Turbine;",
+   "capacity_MW": 181.4,
+   "per_fuel_MW": {
+    "wind": 165,
+    "battery": 16.4
+   },
+   "lat": 26.1952779998065,
+   "lon": -97.4661109998142,
+   "period": 202502
+  },
+  {
+   "id": "56956",
+   "name": "Bull Creek Wind",
+   "utility": "Bull Creek Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 180,
+   "per_fuel_MW": {
+    "wind": 180
+   },
+   "lat": 32.9290140002556,
+   "lon": -101.578616999776,
+   "period": 202502
+  },
+  {
+   "id": "56983",
+   "name": "Papalote Creek I LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 180,
+   "per_fuel_MW": {
+    "wind": 180
+   },
+   "lat": 27.9385999998347,
+   "lon": -97.4585999997725,
+   "period": 202502
+  },
+  {
+   "id": "61032",
+   "name": "Heart of Texas Wind Project",
+   "utility": "Scout Clean Energy LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 180,
+   "per_fuel_MW": {
+    "wind": 180
+   },
+   "lat": 31.2421769998615,
+   "lon": -99.4212659996173,
+   "period": 202502
+  },
+  {
+   "id": "63329",
+   "name": "Aragorn Solar Project",
+   "utility": "SE Aragorn, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 180,
+   "per_fuel_MW": {
+    "solar": 180
+   },
+   "lat": 31.7199830000492,
+   "lon": -104.442291999799,
+   "period": 202502
+  },
+  {
+   "id": "3439",
+   "name": "Laredo",
+   "utility": "City of San Antonio - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 177.4,
+   "per_fuel_MW": {
+    "gas": 177.4
+   },
+   "lat": 27.5667000003692,
+   "lon": -99.508900000011,
+   "period": 202502
+  },
+  {
+   "id": "56674",
+   "name": "Winchester Power Park",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 176,
+   "per_fuel_MW": {
+    "gas": 176
+   },
+   "lat": 30.0254699997505,
+   "lon": -96.9944999995673,
+   "period": 202502
+  },
+  {
+   "id": "62715",
+   "name": "Wildcat Creek Wind Farm LLC",
+   "utility": "Wildcat Creek Wind Farm LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 175.3,
+   "per_fuel_MW": {
+    "wind": 175.3
+   },
+   "lat": 33.5491500001229,
+   "lon": -97.3295799997917,
+   "period": 202502
+  },
+  {
+   "id": "65492",
+   "name": "Pavo",
+   "utility": "Engie North America",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 175,
+   "per_fuel_MW": {
+    "battery": 175
+   },
+   "lat": 30.8851229998114,
+   "lon": -102.422609999838,
+   "period": 202502
+  },
+  {
+   "id": "60657",
+   "name": "Salt Fork Wind Project, LLC",
+   "utility": "Southern Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 174,
+   "per_fuel_MW": {
+    "wind": 174
+   },
+   "lat": 35.1817200001934,
+   "lon": -100.934408000175,
+   "period": 202502
+  },
+  {
+   "id": "67083",
+   "name": "Longbow BESS, LLC",
+   "utility": "Longbow BESS, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 174,
+   "per_fuel_MW": {
+    "battery": 174
+   },
+   "lat": 29.2816050000189,
+   "lon": -95.2955329996982,
+   "period": 202502
+  },
+  {
+   "id": "52132",
+   "name": "Power Station 4",
+   "utility": "South Houston Green Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 172,
+   "per_fuel_MW": {
+    "gas": 172
+   },
+   "lat": 29.3781640001741,
+   "lon": -94.9219499999589,
+   "period": 202502
+  },
+  {
+   "id": "65335",
+   "name": "Appaloosa Run Wind",
+   "utility": "Appaloosa Run Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 171.8,
+   "per_fuel_MW": {
+    "wind": 171.8
+   },
+   "lat": 31.1572690003517,
+   "lon": -101.831602999795,
+   "period": 202502
+  },
+  {
+   "id": "56638",
+   "name": "Buffalo Gap 3 Wind Farm",
+   "utility": "AES Distributed Energy",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 170.2,
+   "per_fuel_MW": {
+    "wind": 170.2
+   },
+   "lat": 32.2877999998448,
+   "lon": -100.09999999994,
+   "period": 202502
+  },
+  {
+   "id": "56774",
+   "name": "Turkey Track Wind Energy LLC",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 169.5,
+   "per_fuel_MW": {
+    "wind": 169.5
+   },
+   "lat": 32.198100000221,
+   "lon": -100.268600000409,
+   "period": 202502
+  },
+  {
+   "id": "55992",
+   "name": "Desert Sky",
+   "utility": "Desert Sky Wind Farm LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 167.7,
+   "per_fuel_MW": {
+    "wind": 167.7
+   },
+   "lat": 30.9177999996945,
+   "lon": -102.086700000308,
+   "period": 202502
+  },
+  {
+   "id": "60856",
+   "name": "Astra Wind Farm",
+   "utility": "Astra Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 163,
+   "per_fuel_MW": {
+    "wind": 163
+   },
+   "lat": 34.769544000169,
+   "lon": -102.052422000357,
+   "period": 202502
+  },
+  {
+   "id": "61776",
+   "name": "Midway Wind, LLC",
+   "utility": "Midway Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 162.9,
+   "per_fuel_MW": {
+    "wind": 162.9
+   },
+   "lat": 27.9549759998344,
+   "lon": -97.3002019997965,
+   "period": 202502
+  },
+  {
+   "id": "56823",
+   "name": "Hackberry Wind Farm",
+   "utility": "Hackberry Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 162.3,
+   "per_fuel_MW": {
+    "wind": 162.3
+   },
+   "lat": 32.7683000001851,
+   "lon": -99.4227999996274,
+   "period": 202502
+  },
+  {
+   "id": "57865",
+   "name": "Antelope Station",
+   "utility": "Golden Spread Electric Cooperative, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Internal Combustion Engine",
+   "capacity_MW": 162,
+   "per_fuel_MW": {
+    "gas": 162
+   },
+   "lat": 33.8649999997396,
+   "lon": -101.843332999553,
+   "period": 202502
+  },
+  {
+   "id": "56432",
+   "name": "Wildorado Wind LLC",
+   "utility": "Wildorado Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 161,
+   "per_fuel_MW": {
+    "wind": 161
+   },
+   "lat": 35.2919440001972,
+   "lon": -102.303055999859,
+   "period": 202502
+  },
+  {
+   "id": "57973",
+   "name": "Spinning Spur Wind LLC",
+   "utility": "EDF Renewable Asset Holdings, Inc.",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 161,
+   "per_fuel_MW": {
+    "wind": 161
+   },
+   "lat": 35.2374999997277,
+   "lon": -102.203055999673,
+   "period": 202502
+  },
+  {
+   "id": "57974",
+   "name": "Bobcat Bluff Wind Project LLC",
+   "utility": "EDF Renewable Asset Holdings, Inc.",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 161,
+   "per_fuel_MW": {
+    "wind": 161
+   },
+   "lat": 33.4930559996265,
+   "lon": -98.5819440000808,
+   "period": 202502
+  },
+  {
+   "id": "58774",
+   "name": "Spinning Spur Wind II",
+   "utility": "EDF Renewable Asset Holdings, Inc.",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 161,
+   "per_fuel_MW": {
+    "wind": 161
+   },
+   "lat": 35.2769439997778,
+   "lon": -102.682778000011,
+   "period": 202502
+  },
+  {
+   "id": "67580",
+   "name": "Markum Solar Farm",
+   "utility": "Markum Solar Farm, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 161,
+   "per_fuel_MW": {
+    "solar": 161
+   },
+   "lat": 31.6947920001084,
+   "lon": -97.3748829998689,
+   "period": 202502
+  },
+  {
+   "id": "62630",
+   "name": "Jumbo Hill Wind Project",
+   "utility": "Engie North America",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 160.7,
+   "per_fuel_MW": {
+    "wind": 160.7
+   },
+   "lat": 32.3860000000426,
+   "lon": -102.949000000209,
+   "period": 202502
+  },
+  {
+   "id": "7325",
+   "name": "San Jacinto Steam Electric Station",
+   "utility": "NRG Texas Power LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 160,
+   "per_fuel_MW": {
+    "gas": 160
+   },
+   "lat": 29.6948379999907,
+   "lon": -95.0406219998563,
+   "period": 202502
+  },
+  {
+   "id": "60743",
+   "name": "Rattlesnake Power, LLC",
+   "utility": "Rattlesnake Power, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 160,
+   "per_fuel_MW": {
+    "wind": 160
+   },
+   "lat": 31.3603309998305,
+   "lon": -99.5513560000009,
+   "period": 202502
+  },
+  {
+   "id": "65793",
+   "name": "Concho Valley Solar, LLC",
+   "utility": "Concho Valley Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 159.8,
+   "per_fuel_MW": {
+    "solar": 159.8
+   },
+   "lat": 31.2140000001747,
+   "lon": -100.255000000183,
+   "period": 202502
+  },
+  {
+   "id": "55309",
+   "name": "Air Products Port Arthur",
+   "utility": "Air Products LLC",
+   "fuel": "other",
+   "tech": "Natural Gas Fired Combustion Turbine; Other Gases;",
+   "capacity_MW": 158.9,
+   "per_fuel_MW": {
+    "gas": 66,
+    "other": 92.9
+   },
+   "lat": 29.8664970003778,
+   "lon": -93.9651499998781,
+   "period": 202502
+  },
+  {
+   "id": "61417",
+   "name": "Gopher Creek Wind Farm",
+   "utility": "Fluvanna Wind Energy 2 LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 158,
+   "per_fuel_MW": {
+    "wind": 158
+   },
+   "lat": 32.875072999873,
+   "lon": -101.208954999826,
+   "period": 202502
+  },
+  {
+   "id": "59994",
+   "name": "RE Roserock",
+   "utility": "Southern Power Co",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 157.5,
+   "per_fuel_MW": {
+    "solar": 157.5
+   },
+   "lat": 30.9602090002938,
+   "lon": -103.306662000064,
+   "period": 202502
+  },
+  {
+   "id": "59245",
+   "name": "Fluvanna",
+   "utility": "Fluvanna Wind Energy LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 155.4,
+   "per_fuel_MW": {
+    "wind": 155.4
+   },
+   "lat": 32.9319439997062,
+   "lon": -101.143610999884,
+   "period": 202502
+  },
+  {
+   "id": "60044",
+   "name": "Buckthorn Westex",
+   "utility": "Buckthorn Westex, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 154,
+   "per_fuel_MW": {
+    "solar": 154
+   },
+   "lat": 30.5755199998089,
+   "lon": -102.55129199971,
+   "period": 202502
+  },
+  {
+   "id": "56920",
+   "name": "Panther Creek Wind Farm I",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 153.9,
+   "per_fuel_MW": {
+    "wind": 153.9
+   },
+   "lat": 32.1008229997305,
+   "lon": -101.451385000248,
+   "period": 202502
+  },
+  {
+   "id": "50150",
+   "name": "Union Carbide Seadrift Cogen",
+   "utility": "Union Carbide Corp-Seadrift",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; Natural Gas Steam Turbine;",
+   "capacity_MW": 153,
+   "per_fuel_MW": {
+    "gas": 153
+   },
+   "lat": 28.5104999996812,
+   "lon": -96.7706000003633,
+   "period": 202502
+  },
+  {
+   "id": "55968",
+   "name": "Trent Wind Farm",
+   "utility": "Trent Wind Farm LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 152,
+   "per_fuel_MW": {
+    "wind": 152
+   },
+   "lat": 32.4301000000643,
+   "lon": -100.235652000254,
+   "period": 202502
+  },
+  {
+   "id": "67425",
+   "name": "Century Oak Wind Project, LLC",
+   "utility": "Century Oak Wind Project, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 151.5,
+   "per_fuel_MW": {
+    "wind": 151.5
+   },
+   "lat": 32.4286860002139,
+   "lon": -99.1591140000704,
+   "period": 202502
+  },
+  {
+   "id": "60366",
+   "name": "Old Settler Wind",
+   "utility": "Old Settler Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 151.2,
+   "per_fuel_MW": {
+    "wind": 151.2
+   },
+   "lat": 34.0603329996977,
+   "lon": -101.187627999648,
+   "period": 202502
+  },
+  {
+   "id": "62417",
+   "name": "Peyton Creek Wind Farm LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 151.2,
+   "per_fuel_MW": {
+    "wind": 151.2
+   },
+   "lat": 28.8433000000021,
+   "lon": -95.8631000003174,
+   "period": 202502
+  },
+  {
+   "id": "56773",
+   "name": "McAdoo Wind Energy LLC",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 33.7522010001635,
+   "lon": -100.967402000362,
+   "period": 202502
+  },
+  {
+   "id": "57153",
+   "name": "Langford Wind Power",
+   "utility": "Langford Wind Power LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 31.0854349998548,
+   "lon": -100.678820000291,
+   "period": 202502
+  },
+  {
+   "id": "57981",
+   "name": "Senate Wind LLC",
+   "utility": "Algonquin Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 33.2058009998386,
+   "lon": -98.3650689997734,
+   "period": 202502
+  },
+  {
+   "id": "58321",
+   "name": "Goldthwaite Wind Energy Facility",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 31.3833329999239,
+   "lon": -98.4666670004417,
+   "period": 202502
+  },
+  {
+   "id": "58681",
+   "name": "Route 66 Wind Plant",
+   "utility": "Onward Energy",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 35.2052780003512,
+   "lon": -101.434167000181,
+   "period": 202502
+  },
+  {
+   "id": "59732",
+   "name": "Green Pastures Wind I",
+   "utility": "Green Pastures Wind I, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 33.6282220002571,
+   "lon": -99.4111689996042,
+   "period": 202502
+  },
+  {
+   "id": "59733",
+   "name": "Green Pastures Wind II",
+   "utility": "Green Pastures Wind II, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 33.6459639998531,
+   "lon": -99.5329439996819,
+   "period": 202502
+  },
+  {
+   "id": "59734",
+   "name": "Briscoe Wind Farm",
+   "utility": "Briscoe Wind Farm, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 34.43226700023,
+   "lon": -101.23723300018,
+   "period": 202502
+  },
+  {
+   "id": "60581",
+   "name": "Upton County Solar",
+   "utility": "Consolidated Edison Development Inc.",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "solar": 150
+   },
+   "lat": 31.2418080000707,
+   "lon": -102.290269999942,
+   "period": 202502
+  },
+  {
+   "id": "61674",
+   "name": "Wildcat Ranch Wind Project",
+   "utility": "Wildcat Ranch Wind Project, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "wind": 150
+   },
+   "lat": 33.5295999998949,
+   "lon": -102.961899999929,
+   "period": 202502
+  },
+  {
+   "id": "62933",
+   "name": "Oberon IA",
+   "utility": "Oberon Solar IA",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "solar": 150
+   },
+   "lat": 31.7032580002292,
+   "lon": -102.701206000224,
+   "period": 202502
+  },
+  {
+   "id": "63519",
+   "name": "CED Crane Solar",
+   "utility": "CED Crane Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "solar": 150
+   },
+   "lat": 31.2543610002957,
+   "lon": -102.311649999824,
+   "period": 202502
+  },
+  {
+   "id": "66170",
+   "name": "Revolution",
+   "utility": "Crane 2 BESS, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "battery": 150
+   },
+   "lat": 31.2334569997468,
+   "lon": -102.308519000054,
+   "period": 202502
+  },
+  {
+   "id": "66616",
+   "name": "Wolf Tank Storage",
+   "utility": "Wolf Tank Storage LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "battery": 150
+   },
+   "lat": 27.5772069997432,
+   "lon": -99.276017999606,
+   "period": 202502
+  },
+  {
+   "id": "66804",
+   "name": "Borden County BESS",
+   "utility": "Borden County Battery Energy Storage System LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "battery": 150
+   },
+   "lat": 32.7223299998088,
+   "lon": -101.638499000246,
+   "period": 202502
+  },
+  {
+   "id": "66954",
+   "name": "Umbriel Solar",
+   "utility": "Umbriel Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "solar": 150
+   },
+   "lat": 30.6687540002933,
+   "lon": -94.7834659996267,
+   "period": 202502
+  },
+  {
+   "id": "68474",
+   "name": "Peacock Energy Project",
+   "utility": "Lightsource Renewable Energy Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 150,
+   "per_fuel_MW": {
+    "solar": 150
+   },
+   "lat": 28.0003949999589,
+   "lon": -97.3879020003124,
+   "period": 202502
+  },
+  {
+   "id": "56754",
+   "name": "Goat Wind LP",
+   "utility": "Goat Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 149.6,
+   "per_fuel_MW": {
+    "wind": 149.6
+   },
+   "lat": 31.9519439999776,
+   "lon": -100.79138899976,
+   "period": 202502
+  },
+  {
+   "id": "60217",
+   "name": "Rocksprings",
+   "utility": "Rocksprings Val Verde Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 149.3,
+   "per_fuel_MW": {
+    "wind": 149.3
+   },
+   "lat": 29.7275300002032,
+   "lon": -100.794310000365,
+   "period": 202502
+  },
+  {
+   "id": "57303",
+   "name": "Loraine Windpark Project LLC",
+   "utility": "Loraine Windpower Project",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 148.5,
+   "per_fuel_MW": {
+    "wind": 148.5
+   },
+   "lat": 32.4375000003499,
+   "lon": -100.744400000235,
+   "period": 202502
+  },
+  {
+   "id": "60270",
+   "name": "Blue Cloud Wind Energy LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 148.4,
+   "per_fuel_MW": {
+    "wind": 148.4
+   },
+   "lat": 34.0382100003403,
+   "lon": -102.665241999926,
+   "period": 202502
+  },
+  {
+   "id": "61001",
+   "name": "Cactus Flats Wind Energy Project",
+   "utility": "Southern Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 148.4,
+   "per_fuel_MW": {
+    "wind": 148.4
+   },
+   "lat": 31.1124739999865,
+   "lon": -100.028141999665,
+   "period": 202502
+  },
+  {
+   "id": "64544",
+   "name": "Ranchland Wind Project II",
+   "utility": "Ranchland Wind Project II, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 148,
+   "per_fuel_MW": {
+    "wind": 148
+   },
+   "lat": 32.3085239999698,
+   "lon": -99.1641980001495,
+   "period": 202502
+  },
+  {
+   "id": "50118",
+   "name": "Hal C Weaver Power Plant",
+   "utility": "University of Texas at Austin",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 146.8,
+   "per_fuel_MW": {
+    "gas": 146.8
+   },
+   "lat": 30.2866999998979,
+   "lon": -97.735600000224,
+   "period": 202502
+  },
+  {
+   "id": "56603",
+   "name": "San Jacinto County Peaking Facility",
+   "utility": "East Texas Electric Coop, Inc",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 146,
+   "per_fuel_MW": {
+    "gas": 146
+   },
+   "lat": 30.419300000379,
+   "lon": -95.0118000004281,
+   "period": 202502
+  },
+  {
+   "id": "66324",
+   "name": "BPL Files Solar",
+   "utility": "BPL Files Solar LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 145,
+   "per_fuel_MW": {
+    "solar": 145
+   },
+   "lat": 32.1839800002723,
+   "lon": -97.071410000134,
+   "period": 202502
+  },
+  {
+   "id": "55365",
+   "name": "Exelon LaPorte Generating Station",
+   "utility": "LaPorte Power, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 144,
+   "per_fuel_MW": {
+    "gas": 144
+   },
+   "lat": 29.7028000000698,
+   "lon": -95.0718000000005,
+   "period": 202502
+  },
+  {
+   "id": "56311",
+   "name": "Sweetwater Wind 3 LLC",
+   "utility": "Leeward Asset Management, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 144,
+   "per_fuel_MW": {
+    "wind": 144
+   },
+   "lat": 32.2908330000579,
+   "lon": -100.421900000063,
+   "period": 202502
+  },
+  {
+   "id": "57659",
+   "name": "East Blackland Solar Project 1",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 144,
+   "per_fuel_MW": {
+    "solar": 144
+   },
+   "lat": 30.4213999998235,
+   "lon": -97.461400000004,
+   "period": 202502
+  },
+  {
+   "id": "61773",
+   "name": "Palmas Wind, LLC",
+   "utility": "Acciona Energy USA Global, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 142.6,
+   "per_fuel_MW": {
+    "wind": 142.6
+   },
+   "lat": 26.2888889999474,
+   "lon": -97.4963890003331,
+   "period": 202502
+  },
+  {
+   "id": "56604",
+   "name": "Hardin County Peaking Facility",
+   "utility": "Entergy Texas Inc.",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 141.6,
+   "per_fuel_MW": {
+    "gas": 141.6
+   },
+   "lat": 30.3037999999163,
+   "lon": -94.2525999996218,
+   "period": 202502
+  },
+  {
+   "id": "10436",
+   "name": "ExxonMobil Baytown Refinery",
+   "utility": "Exxon Mobil Refining and Supply Co.",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; All Other;",
+   "capacity_MW": 141.5,
+   "per_fuel_MW": {
+    "gas": 134,
+    "other": 7.5
+   },
+   "lat": 29.7535170001254,
+   "lon": -94.9972770001118,
+   "period": 202502
+  },
+  {
+   "id": "66531",
+   "name": "Pioneer Hutt Wind Energy",
+   "utility": "Pioneer Hutt Wind Energy, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 140,
+   "per_fuel_MW": {
+    "wind": 140
+   },
+   "lat": 31.7983000000499,
+   "lon": -101.904299999596,
+   "period": 202502
+  },
+  {
+   "id": "65975",
+   "name": "Starr Solar Ranch",
+   "utility": "Lightsource Renewable Energy Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 136,
+   "per_fuel_MW": {
+    "solar": 136
+   },
+   "lat": 26.5233589997947,
+   "lon": -99.0171080001565,
+   "period": 202502
+  },
+  {
+   "id": "58372",
+   "name": "Blue Summit Wind LLC",
+   "utility": "Blue Summit Wind LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 135.4,
+   "per_fuel_MW": {
+    "wind": 135.4
+   },
+   "lat": 34.2929130000877,
+   "lon": -99.3677340003462,
+   "period": 202502
+  },
+  {
+   "id": "65661",
+   "name": "Nebula Solar",
+   "utility": "Rayos del Sol Solar Project, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 135,
+   "per_fuel_MW": {
+    "solar": 135
+   },
+   "lat": 26.0901029996744,
+   "lon": -97.7984529997314,
+   "period": 202502
+  },
+  {
+   "id": "63764",
+   "name": "Elm Branch Solar 1",
+   "utility": "Lightsource Renewable Energy Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 134.7,
+   "per_fuel_MW": {
+    "solar": 134.7
+   },
+   "lat": 32.2325599999119,
+   "lon": -96.7061209998859,
+   "period": 202502
+  },
+  {
+   "id": "57415",
+   "name": "Sherbino II",
+   "utility": "Sherbino II Wind Farm LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 132,
+   "per_fuel_MW": {
+    "wind": 132
+   },
+   "lat": 30.7725749998097,
+   "lon": -102.505807999883,
+   "period": 202502
+  },
+  {
+   "id": "56506",
+   "name": "Scurry County Wind LP",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 130.5,
+   "per_fuel_MW": {
+    "wind": 130.5
+   },
+   "lat": 32.7204000001489,
+   "lon": -100.995200000316,
+   "period": 202502
+  },
+  {
+   "id": "64204",
+   "name": "Elara Solar",
+   "utility": "Lightsource Renewable Energy Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 130,
+   "per_fuel_MW": {
+    "solar": 130
+   },
+   "lat": 28.8831959996768,
+   "lon": -99.1786050001148,
+   "period": 202502
+  },
+  {
+   "id": "59247",
+   "name": "Hale Community Wind Farm",
+   "utility": "Southwestern Public Service Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 128,
+   "per_fuel_MW": {
+    "wind": 128
+   },
+   "lat": 33.9277780002112,
+   "lon": -101.742221999855,
+   "period": 202502
+  },
+  {
+   "id": "63769",
+   "name": "Briar Creek Solar 1",
+   "utility": "Lightsource Renewable Energy Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 127,
+   "per_fuel_MW": {
+    "solar": 127
+   },
+   "lat": 32.0674830001548,
+   "lon": -96.5851359998286,
+   "period": 202502
+  },
+  {
+   "id": "56592",
+   "name": "Champion Wind Farm LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 126.5,
+   "per_fuel_MW": {
+    "wind": 126.5
+   },
+   "lat": 32.3983000003274,
+   "lon": -100.648099999906,
+   "period": 202502
+  },
+  {
+   "id": "60502",
+   "name": "Tyler Bluff Wind Project, LLC",
+   "utility": "Southern Power Co",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 125,
+   "per_fuel_MW": {
+    "wind": 125
+   },
+   "lat": 33.703850999853,
+   "lon": -97.3720090000175,
+   "period": 202502
+  },
+  {
+   "id": "67860",
+   "name": "GFTX BESS",
+   "utility": "Giga Texas Energy LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 125,
+   "per_fuel_MW": {
+    "battery": 125
+   },
+   "lat": 30.2282759997901,
+   "lon": -97.6188330000574,
+   "period": 202502
+  },
+  {
+   "id": "67861",
+   "name": "Connolly BESS",
+   "utility": "BT Connolly Storage, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 125,
+   "per_fuel_MW": {
+    "battery": 125
+   },
+   "lat": 33.2107320000203,
+   "lon": -97.4189859998469,
+   "period": 202502
+  },
+  {
+   "id": "56921",
+   "name": "Panther Creek Wind Farm II",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 124.7,
+   "per_fuel_MW": {
+    "wind": 124.7
+   },
+   "lat": 31.9360999998953,
+   "lon": -101.298299999782,
+   "period": 202502
+  },
+  {
+   "id": "56394",
+   "name": "Forest Creek Wind Farm LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 124.2,
+   "per_fuel_MW": {
+    "wind": 124.2
+   },
+   "lat": 32.038999999946,
+   "lon": -101.220000000044,
+   "period": 202502
+  },
+  {
+   "id": "62772",
+   "name": "Coniglio Solar",
+   "utility": "BT Coniglio Solar LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 123.6,
+   "per_fuel_MW": {
+    "solar": 123.6
+   },
+   "lat": 33.4044860000595,
+   "lon": -96.0824720000093,
+   "period": 202502
+  },
+  {
+   "id": "4266",
+   "name": "Spencer",
+   "utility": "City of Garland - (TX)",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Steam Turbine",
+   "capacity_MW": 122,
+   "per_fuel_MW": {
+    "gas": 122
+   },
+   "lat": 33.1974999999479,
+   "lon": -97.106099999814,
+   "period": 202502
+  },
+  {
+   "id": "56783",
+   "name": "Elbow Creek Wind Project LLC",
+   "utility": "Elbow Creek Wind Project LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 121.9,
+   "per_fuel_MW": {
+    "wind": 121.9
+   },
+   "lat": 32.14079999992,
+   "lon": -101.398600000442,
+   "period": 202502
+  },
+  {
+   "id": "56240",
+   "name": "Buffalo Gap Wind Farm",
+   "utility": "AES Distributed Energy",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 120.6,
+   "per_fuel_MW": {
+    "wind": 120.6
+   },
+   "lat": 32.3115560000383,
+   "lon": -100.061588999588,
+   "period": 202502
+  },
+  {
+   "id": "56644",
+   "name": "Stanton Wind Energy LLC",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 120,
+   "per_fuel_MW": {
+    "wind": 120
+   },
+   "lat": 32.2352999996346,
+   "lon": -101.836700000293,
+   "period": 202502
+  },
+  {
+   "id": "56775",
+   "name": "Scurry County Wind II",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 120,
+   "per_fuel_MW": {
+    "wind": 120
+   },
+   "lat": 32.7180559996721,
+   "lon": -100.793332999849,
+   "period": 202502
+  },
+  {
+   "id": "56776",
+   "name": "Gunsight Mountain Wind Energy LLC",
+   "utility": "Invenergy Services LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 120,
+   "per_fuel_MW": {
+    "wind": 120
+   },
+   "lat": 32.2402779996272,
+   "lon": -101.473611000227,
+   "period": 202502
+  },
+  {
+   "id": "57156",
+   "name": "Barton Chapel Wind Farm",
+   "utility": "Avangrid Power LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 120,
+   "per_fuel_MW": {
+    "wind": 120
+   },
+   "lat": 33.0522260001228,
+   "lon": -98.328414999913,
+   "period": 202502
+  },
+  {
+   "id": "63273",
+   "name": "Wagyu",
+   "utility": "Cubico USA, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 120,
+   "per_fuel_MW": {
+    "solar": 120
+   },
+   "lat": 29.2423039997885,
+   "lon": -95.6581439999134,
+   "period": 202502
+  },
+  {
+   "id": "67739",
+   "name": "Wigeon Whistle Battery Storage Plant",
+   "utility": "Wigeon Whistle BESS LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 120,
+   "per_fuel_MW": {
+    "battery": 120
+   },
+   "lat": 33.0303539997928,
+   "lon": -96.3572029997836,
+   "period": 202502
+  },
+  {
+   "id": "60436",
+   "name": "East Pecos Solar",
+   "utility": "Southern Power Co",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 118.5,
+   "per_fuel_MW": {
+    "solar": 118.5
+   },
+   "lat": 31.0008830002008,
+   "lon": -102.281743999749,
+   "period": 202502
+  },
+  {
+   "id": "60468",
+   "name": "Friendswood Energy",
+   "utility": "Tejas Power Generation LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 117,
+   "per_fuel_MW": {
+    "gas": 117
+   },
+   "lat": 29.6472669996567,
+   "lon": -95.4515160003054,
+   "period": 202502
+  },
+  {
+   "id": "59206",
+   "name": "Alamo 6",
+   "utility": "BHE Renewables, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 116,
+   "per_fuel_MW": {
+    "solar": 116
+   },
+   "lat": 30.9930559997515,
+   "lon": -102.270833000324,
+   "period": 202502
+  },
+  {
+   "id": "63351",
+   "name": "Bluebell Solar II",
+   "utility": "Bluebell Solar II, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 115,
+   "per_fuel_MW": {
+    "solar": 115
+   },
+   "lat": 31.8880000001429,
+   "lon": -100.824999999714,
+   "period": 202502
+  },
+  {
+   "id": "64551",
+   "name": "Ranchland Wind Project I",
+   "utility": "Ranchland Wind Project I, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 114.9,
+   "per_fuel_MW": {
+    "wind": 114.9
+   },
+   "lat": 32.3085239999698,
+   "lon": -99.1644979997252,
+   "period": 202502
+  },
+  {
+   "id": "56270",
+   "name": "Callahan Divide Wind Energy Center",
+   "utility": "FPL Energy Callahan Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 114,
+   "per_fuel_MW": {
+    "wind": 114
+   },
+   "lat": 32.3038890001458,
+   "lon": -100.021666999691,
+   "period": 202502
+  },
+  {
+   "id": "56905",
+   "name": "Great Plains Windpark LLC",
+   "utility": "Great Plains Windpark Legacy LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 114,
+   "per_fuel_MW": {
+    "wind": 114
+   },
+   "lat": 36.496399999992,
+   "lon": -101.39170000032,
+   "period": 202502
+  },
+  {
+   "id": "58080",
+   "name": "Wolf Ridge Wind",
+   "utility": "NextEra Wolf Ridge LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 112.5,
+   "per_fuel_MW": {
+    "wind": 112.5
+   },
+   "lat": 33.7330060001014,
+   "lon": -97.4284059998175,
+   "period": 202502
+  },
+  {
+   "id": "3559",
+   "name": "Silas Ray",
+   "utility": "Brownsville Public Utilities Board",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle; Natural Gas Fired Combustion Turbine; Petroleum Liquids",
+   "capacity_MW": 112,
+   "per_fuel_MW": {
+    "gas": 107
+   },
+   "lat": 25.9130999999025,
+   "lon": -97.5213999995765,
+   "period": 202502
+  },
+  {
+   "id": "66310",
+   "name": "Cutlass Solar 1 LLC",
+   "utility": "Cutlass Solar 1, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 110.9,
+   "per_fuel_MW": {
+    "solar": 110.9
+   },
+   "lat": 29.4096689998799,
+   "lon": -95.7340500001995,
+   "period": 202502
+  },
+  {
+   "id": "10154",
+   "name": "Power Island",
+   "utility": "INEOS USA LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 110,
+   "per_fuel_MW": {
+    "gas": 110
+   },
+   "lat": 29.2292999997552,
+   "lon": -95.1952000003249,
+   "period": 202502
+  },
+  {
+   "id": "58838",
+   "name": "Keechi Wind",
+   "utility": "Keechi Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 110,
+   "per_fuel_MW": {
+    "wind": 110
+   },
+   "lat": 33.1430559997028,
+   "lon": -98.1611109998023,
+   "period": 202502
+  },
+  {
+   "id": "60059",
+   "name": "Los Vientos V Wind Power",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 110,
+   "per_fuel_MW": {
+    "wind": 110
+   },
+   "lat": 26.4116890001835,
+   "lon": -98.5715540001647,
+   "period": 202502
+  },
+  {
+   "id": "63343",
+   "name": "Galloway 2 Solar Farm",
+   "utility": "224WB 8me LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 110,
+   "per_fuel_MW": {
+    "solar": 110
+   },
+   "lat": 31.4462370001861,
+   "lon": -99.9029730000525,
+   "period": 202502
+  },
+  {
+   "id": "3600",
+   "name": "Marshall Ford",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "hydroelectric",
+   "tech": "Conventional Hydroelectric",
+   "capacity_MW": 108,
+   "per_fuel_MW": {
+    "hydro": 108
+   },
+   "lat": 30.3898999998282,
+   "lon": -97.9072999996023,
+   "period": 202502
+  },
+  {
+   "id": "63233",
+   "name": "Emerald Grove",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 108,
+   "per_fuel_MW": {
+    "solar": 108
+   },
+   "lat": 31.0933100002766,
+   "lon": -102.359640000155,
+   "period": 202502
+  },
+  {
+   "id": "4195",
+   "name": "Powerlane Plant",
+   "utility": "City of Greenville - (TX)",
+   "fuel": "petroleum",
+   "tech": "Natural Gas Internal Combustion Engine; Natural Gas Steam Turbine; Petroleum Liquids",
+   "capacity_MW": 106.6,
+   "per_fuel_MW": {
+    "gas": 42.6
+   },
+   "lat": 33.1706999998615,
+   "lon": -96.126400000085,
+   "period": 202502
+  },
+  {
+   "id": "56649",
+   "name": "South Trent Wind Farm",
+   "utility": "NRG Energy Inc",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 101.2,
+   "per_fuel_MW": {
+    "wind": 101.2
+   },
+   "lat": 32.4080999997864,
+   "lon": -100.12859999961,
+   "period": 202502
+  },
+  {
+   "id": "66007",
+   "name": "Flower Valley II",
+   "utility": "Flower Valley II",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 101,
+   "per_fuel_MW": {
+    "battery": 101
+   },
+   "lat": 31.1972850001577,
+   "lon": -103.361770999902,
+   "period": 202502
+  },
+  {
+   "id": "66008",
+   "name": "Swoose II",
+   "utility": "Swoose II",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 101,
+   "per_fuel_MW": {
+    "battery": 101
+   },
+   "lat": 31.4511500003323,
+   "lon": -103.361770999902,
+   "period": 202502
+  },
+  {
+   "id": "60983",
+   "name": "Buckthorn Wind",
+   "utility": "Buckthorn Wind Project, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 100.5,
+   "per_fuel_MW": {
+    "wind": 100.5
+   },
+   "lat": 32.3713060002455,
+   "lon": -98.377389000433,
+   "period": 202502
+  },
+  {
+   "id": "67721",
+   "name": "Al Pastor Battery Storage Plant",
+   "utility": "Al Pastor BESS LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100.3,
+   "per_fuel_MW": {
+    "battery": 100.3
+   },
+   "lat": 32.7171000000377,
+   "lon": -101.937800000121,
+   "period": 202502
+  },
+  {
+   "id": "6416",
+   "name": "Denison",
+   "utility": "USCE-Tulsa District",
+   "fuel": "hydroelectric",
+   "tech": "Conventional Hydroelectric",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "hydro": 100
+   },
+   "lat": 33.8181000000666,
+   "lon": -96.5691999998761,
+   "period": 202502
+  },
+  {
+   "id": "55708",
+   "name": "Nacogdoches Power",
+   "utility": "Austin Energy",
+   "fuel": "biomass",
+   "tech": "Wood/Wood Waste Biomass",
+   "capacity_MW": 100,
+   "per_fuel_MW": {},
+   "lat": 31.832131999717,
+   "lon": -94.9006400003973,
+   "period": 202502
+  },
+  {
+   "id": "56233",
+   "name": "EG178 Facility",
+   "utility": "Kinder Morgan Production Company LP",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "gas": 100
+   },
+   "lat": 32.7470579997188,
+   "lon": -100.954660999752,
+   "period": 202502
+  },
+  {
+   "id": "59205",
+   "name": "OCI Alamo 5 LLC",
+   "utility": "Consolidated Edison Development Inc.",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 29.216666999778,
+   "lon": -99.7161109999502,
+   "period": 202502
+  },
+  {
+   "id": "59207",
+   "name": "OCI Alamo 7 LLC",
+   "utility": "Consolidated Edison Development Inc.",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 33.0399999998166,
+   "lon": -99.5525000000237,
+   "period": 202502
+  },
+  {
+   "id": "60372",
+   "name": "Lamesa Solar",
+   "utility": "Southern Power Co",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 32.7156110000099,
+   "lon": -101.926522000275,
+   "period": 202502
+  },
+  {
+   "id": "62415",
+   "name": "West of the Pecos Solar",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 31.4308000000711,
+   "lon": -103.728899999583,
+   "period": 202502
+  },
+  {
+   "id": "62448",
+   "name": "Lapetus",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 32.4600539999948,
+   "lon": -102.672809000045,
+   "period": 202502
+  },
+  {
+   "id": "63737",
+   "name": "Chisholm Grid Energy Storage System",
+   "utility": "Chisholm Grid, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 32.9044440003279,
+   "lon": -97.3861110003843,
+   "period": 202502
+  },
+  {
+   "id": "63757",
+   "name": "Madero Grid",
+   "utility": "Madero Grid, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 26.1698460003658,
+   "lon": -98.3297930002875,
+   "period": 202502
+  },
+  {
+   "id": "64089",
+   "name": "Ignacio Grid Energy Storage System",
+   "utility": "Ignacio Grid, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 26.1669439999255,
+   "lon": -98.3249999995632,
+   "period": 202502
+  },
+  {
+   "id": "64259",
+   "name": "BPL Crown Solar LLC",
+   "utility": "BPL Crown Solar LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 31.3467170001789,
+   "lon": -97.0827740001935,
+   "period": 202502
+  },
+  {
+   "id": "64260",
+   "name": "BPL Sol Solar LLC",
+   "utility": "BPL Sol Solar LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 31.3467170001789,
+   "lon": -97.0827740001935,
+   "period": 202502
+  },
+  {
+   "id": "64312",
+   "name": "Bat Cave",
+   "utility": "Engie North America",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 30.7377449999204,
+   "lon": -99.231778000259,
+   "period": 202502
+  },
+  {
+   "id": "64317",
+   "name": "North Fork TX",
+   "utility": "Engie North America",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 30.748954999926,
+   "lon": -97.8757080000797,
+   "period": 202502
+  },
+  {
+   "id": "64528",
+   "name": "Gambit Energy Storage - Angleton Storage",
+   "utility": "Tesla Inc.",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 29.168010000072,
+   "lon": -95.4450620002477,
+   "period": 202502
+  },
+  {
+   "id": "65693",
+   "name": "TX10 Hummingbird Storage",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 33.3256000003327,
+   "lon": -97.3143300001025,
+   "period": 202502
+  },
+  {
+   "id": "65695",
+   "name": "TX12 Silicon Hill Storage",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 30.4121700001397,
+   "lon": -97.5740499996639,
+   "period": 202502
+  },
+  {
+   "id": "65698",
+   "name": "TX15 Limousin Oak Storage",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 30.6599099997023,
+   "lon": -95.9737980003908,
+   "period": 202502
+  },
+  {
+   "id": "65981",
+   "name": "Second Division Solar",
+   "utility": "Lightsource Renewable Energy Asset Management, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 29.1705450003003,
+   "lon": -95.7415739997618,
+   "period": 202502
+  },
+  {
+   "id": "66336",
+   "name": "St. Gall Energy Storage I",
+   "utility": "St. Gall Energy Storage I",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 30.9243809999947,
+   "lon": -102.953582999973,
+   "period": 202502
+  },
+  {
+   "id": "66410",
+   "name": "Grizzly Ridge Solar",
+   "utility": "Grizzly Ridge Solar LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 31.7381769997241,
+   "lon": -98.2137390001485,
+   "period": 202502
+  },
+  {
+   "id": "66690",
+   "name": "Brazos Bend BESS, LLC",
+   "utility": "Cypress Creek Renewables",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 29.563179999812,
+   "lon": -95.8002300001932,
+   "period": 202502
+  },
+  {
+   "id": "66872",
+   "name": "Estonian Solar Project, LLC",
+   "utility": "Enel Green Power Estonian Solar Project, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 33.4571430002854,
+   "lon": -95.66789699997,
+   "period": 202502
+  },
+  {
+   "id": "67159",
+   "name": "Liberty County Solar Project",
+   "utility": "Liberty County Solar Project, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "solar": 100
+   },
+   "lat": 29.9588799999819,
+   "lon": -94.8504800000217,
+   "period": 202502
+  },
+  {
+   "id": "68146",
+   "name": "Angelo Storage",
+   "utility": "Angelo Storage, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 31.513643000339,
+   "lon": -100.5835669999,
+   "period": 202502
+  },
+  {
+   "id": "68189",
+   "name": "Great Kiskadee Storage",
+   "utility": "Great Kiskadee Storage, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 100,
+   "per_fuel_MW": {
+    "battery": 100
+   },
+   "lat": 26.1042859996923,
+   "lon": -98.17188099966,
+   "period": 202502
+  },
+  {
+   "id": "58000",
+   "name": "Anacacho Wind Farm, LLC",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 99.8,
+   "per_fuel_MW": {
+    "wind": 99.8
+   },
+   "lat": 29.2347220000356,
+   "lon": -100.209167000376,
+   "period": 202502
+  },
+  {
+   "id": "61970",
+   "name": "Blue Summit II Wind, LLC",
+   "utility": "Blue Summit II Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 99.4,
+   "per_fuel_MW": {
+    "wind": 99.4
+   },
+   "lat": 34.2258819997974,
+   "lon": -99.4779860003558,
+   "period": 202502
+  },
+  {
+   "id": "56212",
+   "name": "Sweetwater Wind 2 LLC",
+   "utility": "Leeward Asset Management, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 98.8,
+   "per_fuel_MW": {
+    "wind": 98.8
+   },
+   "lat": 32.3471999999587,
+   "lon": -100.370300000286,
+   "period": 202502
+  },
+  {
+   "id": "57504",
+   "name": "TECO CHP-1",
+   "utility": "Texas Medical Center Central",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 97,
+   "per_fuel_MW": {
+    "gas": 97
+   },
+   "lat": 29.7034540001193,
+   "lon": -95.3983170002219,
+   "period": 202502
+  },
+  {
+   "id": "59712",
+   "name": "San Roman Wind I, LLC",
+   "utility": "Acciona Energy USA Global, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 95.3,
+   "per_fuel_MW": {
+    "wind": 95.3
+   },
+   "lat": 26.1259789997592,
+   "lon": -97.3775990004349,
+   "period": 202502
+  },
+  {
+   "id": "58021",
+   "name": "Whitetail",
+   "utility": "Whitetail Wind Energy, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 92.3,
+   "per_fuel_MW": {
+    "wind": 92.3
+   },
+   "lat": 27.4880559996273,
+   "lon": -99.0052779999417,
+   "period": 202502
+  },
+  {
+   "id": "56479",
+   "name": "Sand Bluff Wind Farm",
+   "utility": "RWE Renewables Americas, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 89.5,
+   "per_fuel_MW": {
+    "wind": 89.5
+   },
+   "lat": 31.9914420001897,
+   "lon": -101.302637000397,
+   "period": 202502
+  },
+  {
+   "id": "55311",
+   "name": "BASF Freeport Works",
+   "utility": "BASF Corporation",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine; All Other;",
+   "capacity_MW": 86.7,
+   "per_fuel_MW": {
+    "gas": 75,
+    "other": 11.7
+   },
+   "lat": 29.0020000002565,
+   "lon": -95.3939999996987,
+   "period": 202502
+  },
+  {
+   "id": "60459",
+   "name": "Port Comfort Power LLC",
+   "utility": "Peaker Power, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 86,
+   "per_fuel_MW": {
+    "gas": 86
+   },
+   "lat": 28.6480700003863,
+   "lon": -96.5462099998162,
+   "period": 202502
+  },
+  {
+   "id": "60460",
+   "name": "Chamon Power LLC",
+   "utility": "Peaker Power, LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 86,
+   "per_fuel_MW": {
+    "gas": 86
+   },
+   "lat": 29.8832139997438,
+   "lon": -95.1113450003291,
+   "period": 202502
+  },
+  {
+   "id": "61241",
+   "name": "Tres City Power LLC",
+   "utility": "Tres Power Victoria LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 86,
+   "per_fuel_MW": {
+    "gas": 86
+   },
+   "lat": 28.7853000003754,
+   "lon": -97.009299999893,
+   "period": 202502
+  },
+  {
+   "id": "61242",
+   "name": "Tres Port Power, LLC",
+   "utility": "Tres Power Victoria LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 86,
+   "per_fuel_MW": {
+    "gas": 86
+   },
+   "lat": 28.6963699998909,
+   "lon": -96.9452999999897,
+   "period": 202502
+  },
+  {
+   "id": "61966",
+   "name": "Victoria Port Power II LLC",
+   "utility": "Victoria Port Power II",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 86,
+   "per_fuel_MW": {
+    "gas": 86
+   },
+   "lat": 28.6984770000502,
+   "lon": -96.9461250001702,
+   "period": 202502
+  },
+  {
+   "id": "62548",
+   "name": "SJRR Power LLC",
+   "utility": "SJRR\t\t\t",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 86,
+   "per_fuel_MW": {
+    "gas": 86
+   },
+   "lat": 29.8819299998093,
+   "lon": -95.1114800000483,
+   "period": 202502
+  },
+  {
+   "id": "56457",
+   "name": "Post Wind Farm LP",
+   "utility": "FPL Energy Red Canyon LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 84,
+   "per_fuel_MW": {
+    "wind": 84
+   },
+   "lat": 32.9254399997852,
+   "lon": -101.219396999621,
+   "period": 202502
+  },
+  {
+   "id": "55747",
+   "name": "NWP Indian Mesa Wind Farm",
+   "utility": "NWP Indian Mesa Wind Farm LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 82.5,
+   "per_fuel_MW": {
+    "wind": 82.5
+   },
+   "lat": 30.9314670003155,
+   "lon": -102.201432999974,
+   "period": 202502
+  },
+  {
+   "id": "62505",
+   "name": "G.S.E. One LLC",
+   "utility": "GSEone",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 82.5,
+   "per_fuel_MW": {
+    "solar": 82.5
+   },
+   "lat": 33.5003779998356,
+   "lon": -96.146488999631,
+   "period": 202502
+  },
+  {
+   "id": "55796",
+   "name": "Woodward Mountain I",
+   "utility": "Pecos Wind I LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 82,
+   "per_fuel_MW": {
+    "wind": 82
+   },
+   "lat": 30.9514000002696,
+   "lon": -102.414066999926,
+   "period": 202502
+  },
+  {
+   "id": "56372",
+   "name": "Sweetwater Wind 5",
+   "utility": "Leeward Asset Management, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 80.5,
+   "per_fuel_MW": {
+    "wind": 80.5
+   },
+   "lat": 32.2369440000795,
+   "lon": -100.483299999751,
+   "period": 202502
+  },
+  {
+   "id": "6595",
+   "name": "Toledo Bend",
+   "utility": "Entergy Texas Inc.",
+   "fuel": "hydroelectric",
+   "tech": "Conventional Hydroelectric",
+   "capacity_MW": 80,
+   "per_fuel_MW": {
+    "hydro": 80
+   },
+   "lat": 31.1734840002812,
+   "lon": -93.5658770003048,
+   "period": 202502
+  },
+  {
+   "id": "55579",
+   "name": "Llano Estacado Wind Ranch",
+   "utility": "Llano Estacado Wind Ranch",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 80,
+   "per_fuel_MW": {
+    "wind": 80
+   },
+   "lat": 35.4677000003425,
+   "lon": -101.253299999654,
+   "period": 202502
+  },
+  {
+   "id": "59244",
+   "name": "Lorenzo Wind",
+   "utility": "Lorenzo Wind, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 80,
+   "per_fuel_MW": {
+    "wind": 80
+   },
+   "lat": 33.699166999811,
+   "lon": -101.524722000282,
+   "period": 202502
+  },
+  {
+   "id": "63797",
+   "name": "Ellis Solar LLC",
+   "utility": "174 Power Global Corp.",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 80,
+   "per_fuel_MW": {
+    "solar": 80
+   },
+   "lat": 32.4671939998195,
+   "lon": -97.0543329996334,
+   "period": 202502
+  },
+  {
+   "id": "56560",
+   "name": "Porterhouse Wind (4) LLC",
+   "utility": "UPC Power Solutions",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 79.8,
+   "per_fuel_MW": {
+    "wind": 79.8
+   },
+   "lat": 36.4144000003544,
+   "lon": -101.386400000331,
+   "period": 202502
+  },
+  {
+   "id": "58363",
+   "name": "Majestic II Wind",
+   "utility": "NextEra Energy Majestic Wind",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 79.6,
+   "per_fuel_MW": {
+    "wind": 79.6
+   },
+   "lat": 35.3860379997879,
+   "lon": -101.57857199957,
+   "period": 202502
+  },
+  {
+   "id": "56648",
+   "name": "Majestic 1 Wind Farm",
+   "utility": "NextEra Energy Majestic Wind",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 79.5,
+   "per_fuel_MW": {
+    "wind": 79.5
+   },
+   "lat": 35.3919000000082,
+   "lon": -101.529999999631,
+   "period": 202502
+  },
+  {
+   "id": "57866",
+   "name": "Golden Spread Panhandle Wnd Rch",
+   "utility": "Golden Spread Electric Cooperative, Inc",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 78.2,
+   "per_fuel_MW": {
+    "wind": 78.2
+   },
+   "lat": 35.2436110001541,
+   "lon": -102.210000000175,
+   "period": 202502
+  },
+  {
+   "id": "65521",
+   "name": "Longbow Solar, LLC",
+   "utility": "Longbow Acquisition HoldCo, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 78.1,
+   "per_fuel_MW": {
+    "solar": 78.1
+   },
+   "lat": 29.2898089998404,
+   "lon": -95.2986090001143,
+   "period": 202502
+  },
+  {
+   "id": "55795",
+   "name": "Woodward Mountain II",
+   "utility": "Pecos Wind II LP",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 78,
+   "per_fuel_MW": {
+    "wind": 78
+   },
+   "lat": 30.9514000002696,
+   "lon": -102.414066999926,
+   "period": 202502
+  },
+  {
+   "id": "59654",
+   "name": "Sendero",
+   "utility": "Sendero Wind Energy, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 78,
+   "per_fuel_MW": {
+    "wind": 78
+   },
+   "lat": 27.1800000003151,
+   "lon": -98.9166669999299,
+   "period": 202502
+  },
+  {
+   "id": "50127",
+   "name": "Signal Hill Generating LLC",
+   "utility": "Signal Hill Generating LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combined Cycle",
+   "capacity_MW": 76.1,
+   "per_fuel_MW": {
+    "gas": 76.1
+   },
+   "lat": 33.8624999996443,
+   "lon": -98.589399999871,
+   "period": 202502
+  },
+  {
+   "id": "10790",
+   "name": "Victoria Texas Plant",
+   "utility": "Invista",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 75,
+   "per_fuel_MW": {
+    "gas": 75
+   },
+   "lat": 28.675087999925,
+   "lon": -96.9560139997709,
+   "period": 202502
+  },
+  {
+   "id": "58378",
+   "name": "Petra Nova Carbon Capture Cogen",
+   "utility": "Petra Nova Power I LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 74,
+   "per_fuel_MW": {
+    "gas": 74
+   },
+   "lat": 29.475278000054,
+   "lon": -95.6341670001897,
+   "period": 202502
+  },
+  {
+   "id": "64545",
+   "name": "Ranchland Wind Storage",
+   "utility": "Ranchland Wind Storage, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 73,
+   "per_fuel_MW": {
+    "battery": 73
+   },
+   "lat": 32.3085239999698,
+   "lon": -99.1641980001495,
+   "period": 202502
+  },
+  {
+   "id": "67762",
+   "name": "Stampede Solar Hybrid",
+   "utility": "Stampede Solar Project LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 72.2,
+   "per_fuel_MW": {
+    "battery": 72.2
+   },
+   "lat": 33.2013149999483,
+   "lon": -95.3192290001129,
+   "period": 202502
+  },
+  {
+   "id": "67023",
+   "name": "Dileo Solar",
+   "utility": "Elawan Dileo Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 71.4,
+   "per_fuel_MW": {
+    "solar": 71.4
+   },
+   "lat": 31.7800000001601,
+   "lon": -97.5100000004302,
+   "period": 202502
+  },
+  {
+   "id": "55122",
+   "name": "NAFTA Region Olefins Complex Cogen Fac",
+   "utility": "BASF Corp",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 70,
+   "per_fuel_MW": {
+    "gas": 70
+   },
+   "lat": 29.9543210003224,
+   "lon": -93.8835920001487,
+   "period": 202502
+  },
+  {
+   "id": "59145",
+   "name": "Freeport LP Pretreatment Facility",
+   "utility": "Freeport LNG Development L.P",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 70,
+   "per_fuel_MW": {
+    "gas": 70
+   },
+   "lat": 28.9791669996145,
+   "lon": -95.3069439996134,
+   "period": 202502
+  },
+  {
+   "id": "50137",
+   "name": "Newgulf Cogen",
+   "utility": "Wharton County Generation LLC",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 69,
+   "per_fuel_MW": {
+    "gas": 69
+   },
+   "lat": 29.2638999996992,
+   "lon": -95.8996999997512,
+   "period": 202502
+  },
+  {
+   "id": "59238",
+   "name": "Windthorst-2",
+   "utility": "EDF Renewable Asset Holdings, Inc.",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 67.6,
+   "per_fuel_MW": {
+    "wind": 67.6
+   },
+   "lat": 33.4952780000253,
+   "lon": -98.4999999996636,
+   "period": 202502
+  },
+  {
+   "id": "50121",
+   "name": "Valero Refinery Corpus Christi West",
+   "utility": "Valero Refining Co",
+   "fuel": "petroleum",
+   "tech": "All Other; Petroleum Coke;",
+   "capacity_MW": 65.2,
+   "per_fuel_MW": {
+    "other": 12
+   },
+   "lat": 27.8175000002795,
+   "lon": -97.4813999998615,
+   "period": 202502
+  },
+  {
+   "id": "54097",
+   "name": "International Paper Texarkana Mill",
+   "utility": "Graphic Packaging International - Texarkana",
+   "fuel": "biomass",
+   "tech": "Wood/Wood Waste Biomass",
+   "capacity_MW": 65,
+   "per_fuel_MW": {},
+   "lat": 33.2553000003656,
+   "lon": -94.0695999997581,
+   "period": 202502
+  },
+  {
+   "id": "9",
+   "name": "Copper",
+   "utility": "El Paso Electric Co",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 63,
+   "per_fuel_MW": {
+    "gas": 63
+   },
+   "lat": 31.7568999999347,
+   "lon": -106.37499999969,
+   "period": 202502
+  },
+  {
+   "id": "66006",
+   "name": "House Mountain",
+   "utility": "House Mountain",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 63,
+   "per_fuel_MW": {
+    "battery": 63
+   },
+   "lat": 30.4956680002741,
+   "lon": -103.450965000245,
+   "period": 202502
+  },
+  {
+   "id": "58162",
+   "name": "Cirrus Wind 1 LLC",
+   "utility": "Cirrus Wind 1 LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 61.2,
+   "per_fuel_MW": {
+    "wind": 61.2
+   },
+   "lat": 33.0330559998687,
+   "lon": -101.687499999632,
+   "period": 202502
+  },
+  {
+   "id": "54637",
+   "name": "JCO Oxides Olefins Plant",
+   "utility": "Indorama Ventures",
+   "fuel": "natural gas",
+   "tech": "Natural Gas Fired Combustion Turbine",
+   "capacity_MW": 61,
+   "per_fuel_MW": {
+    "gas": 61
+   },
+   "lat": 29.96350200003,
+   "lon": -93.9297370001248,
+   "period": 202502
+  },
+  {
+   "id": "50101",
+   "name": "WestRock (TX)",
+   "utility": "WestRock (TX)",
+   "fuel": "biomass",
+   "tech": "Wood/Wood Waste Biomass",
+   "capacity_MW": 59.5,
+   "per_fuel_MW": {},
+   "lat": 30.3419000003052,
+   "lon": -94.0656000003256,
+   "period": 202502
+  },
+  {
+   "id": "62773",
+   "name": "BT Cooke Solar, LLC",
+   "utility": "Adapture Renewables, Inc.",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 59,
+   "per_fuel_MW": {
+    "solar": 59
+   },
+   "lat": 33.5492999998741,
+   "lon": -97.1798000000704,
+   "period": 202502
+  },
+  {
+   "id": "62774",
+   "name": "Kellam Solar",
+   "utility": "Kellam Solar, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 59,
+   "per_fuel_MW": {
+    "solar": 59
+   },
+   "lat": 32.4743999998385,
+   "lon": -95.7156000002456,
+   "period": 202502
+  },
+  {
+   "id": "56959",
+   "name": "Ocotillo Windpower",
+   "utility": "Duke Energy Renewables Services",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 58.8,
+   "per_fuel_MW": {
+    "wind": 58.8
+   },
+   "lat": 32.1216999996779,
+   "lon": -101.385299999791,
+   "period": 202502
+  },
+  {
+   "id": "6128",
+   "name": "Amistad Dam & Power",
+   "utility": "International Bound & Wtr Comm",
+   "fuel": "hydroelectric",
+   "tech": "Conventional Hydroelectric",
+   "capacity_MW": 58,
+   "per_fuel_MW": {
+    "hydro": 58
+   },
+   "lat": 29.4498270003445,
+   "lon": -101.06010999989,
+   "period": 202502
+  },
+  {
+   "id": "56673",
+   "name": "Whirlwind Energy Center",
+   "utility": "Whirlwind Energy LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 57,
+   "per_fuel_MW": {
+    "wind": 57
+   },
+   "lat": 34.1049999999801,
+   "lon": -101.098599999885,
+   "period": 202502
+  },
+  {
+   "id": "3595",
+   "name": "Buchanan Dam (TX)",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "hydroelectric",
+   "tech": "Conventional Hydroelectric",
+   "capacity_MW": 54.9,
+   "per_fuel_MW": {
+    "hydro": 54.9
+   },
+   "lat": 30.7506999997763,
+   "lon": -98.4176000000352,
+   "period": 202502
+  },
+  {
+   "id": "3597",
+   "name": "Granite Shoals",
+   "utility": "Lower Colorado River Authority",
+   "fuel": "hydroelectric",
+   "tech": "Conventional Hydroelectric",
+   "capacity_MW": 54,
+   "per_fuel_MW": {
+    "hydro": 54
+   },
+   "lat": 30.5559999999857,
+   "lon": -98.3383999997731,
+   "period": 202502
+  },
+  {
+   "id": "56771",
+   "name": "Silver Star I Wind Power Project",
+   "utility": "Silver Star I Power Partners LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 52.8,
+   "per_fuel_MW": {
+    "wind": 52.8
+   },
+   "lat": 32.3386589998118,
+   "lon": -98.4760510004272,
+   "period": 202502
+  },
+  {
+   "id": "6413",
+   "name": "Sam Rayburn Dam",
+   "utility": "USACE-Fort Worth District",
+   "fuel": "hydroelectric",
+   "tech": "Conventional Hydroelectric",
+   "capacity_MW": 52,
+   "per_fuel_MW": {
+    "hydro": 52
+   },
+   "lat": 31.0608929996735,
+   "lon": -94.1062000000902,
+   "period": 202502
+  },
+  {
+   "id": "65028",
+   "name": "Roseland Solar Project, LLC",
+   "utility": "Enel Green Power Roseland Solar, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 51.8,
+   "per_fuel_MW": {
+    "battery": 51.8
+   },
+   "lat": 31.4612419996381,
+   "lon": -96.8249280004009,
+   "period": 202502
+  },
+  {
+   "id": "64672",
+   "name": "Blue Jay Solar I, LLC",
+   "utility": "Blue Jay Solar I, LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 51.6,
+   "per_fuel_MW": {
+    "battery": 51.6
+   },
+   "lat": 30.7053289999437,
+   "lon": -96.0698290002078,
+   "period": 202502
+  },
+  {
+   "id": "63223",
+   "name": "Brightside",
+   "utility": "Luminant Generation Company LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 50.7,
+   "per_fuel_MW": {
+    "solar": 50.7
+   },
+   "lat": 28.4309879998497,
+   "lon": -97.8895550001783,
+   "period": 202502
+  },
+  {
+   "id": "60210",
+   "name": "Cotton Plains Wind Farm",
+   "utility": "Cotton Plains Wind I, LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 50.4,
+   "per_fuel_MW": {
+    "wind": 50.4
+   },
+   "lat": 34.0603329996977,
+   "lon": -101.187627999648,
+   "period": 202502
+  },
+  {
+   "id": "62618",
+   "name": "Hidalgo Wind Farm II",
+   "utility": "Hidalgo Wind Farm II LLC",
+   "fuel": "wind",
+   "tech": "Onshore Wind Turbine",
+   "capacity_MW": 50.4,
+   "per_fuel_MW": {
+    "wind": 50.4
+   },
+   "lat": 26.4928620003233,
+   "lon": -98.4482669998182,
+   "period": 202502
+  },
+  {
+   "id": "60682",
+   "name": "Pearl Solar",
+   "utility": "BHE Renewables, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "solar": 50
+   },
+   "lat": 30.9878400001432,
+   "lon": -102.268310000102,
+   "period": 202502
+  },
+  {
+   "id": "60989",
+   "name": "SolaireHolman Solar Project",
+   "utility": "SolaireHolman 1, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "solar": 50
+   },
+   "lat": 30.4551199999657,
+   "lon": -103.474700000119,
+   "period": 202502
+  },
+  {
+   "id": "61697",
+   "name": "Lamesa II",
+   "utility": "Lamesa Solar II, L.L.C.",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "solar": 50
+   },
+   "lat": 32.7133259999308,
+   "lon": -101.885217999805,
+   "period": 202502
+  },
+  {
+   "id": "65259",
+   "name": "Byrd Ranch Storage",
+   "utility": "Byrd Ranch Storage LLC",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "battery": 50
+   },
+   "lat": 29.0560000000336,
+   "lon": -95.6859999995942,
+   "period": 202502
+  },
+  {
+   "id": "65493",
+   "name": "Tortolas",
+   "utility": "Engie North America",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "battery": 50
+   },
+   "lat": 29.4323619998313,
+   "lon": -95.2506980003245,
+   "period": 202502
+  },
+  {
+   "id": "65694",
+   "name": "TX11 Republic Road Storage",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "battery": 50
+   },
+   "lat": 30.8814240000593,
+   "lon": -96.6254200001241,
+   "period": 202502
+  },
+  {
+   "id": "65696",
+   "name": "TX13 Endurance Park Storage",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "battery": 50
+   },
+   "lat": 32.8558299999723,
+   "lon": -100.991681000209,
+   "period": 202502
+  },
+  {
+   "id": "65699",
+   "name": "TX19 River Valley Storage 1",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "battery": 50
+   },
+   "lat": 30.4147700002906,
+   "lon": -97.3570100003985,
+   "period": 202502
+  },
+  {
+   "id": "65700",
+   "name": "TX21 River Valley Storage 2",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "battery": 50
+   },
+   "lat": 30.4143200000362,
+   "lon": -97.3551800001124,
+   "period": 202502
+  },
+  {
+   "id": "65701",
+   "name": "TX23 Roughneck Storage",
+   "utility": "Key Capture Energy",
+   "fuel": "batteries",
+   "tech": "Batteries",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "battery": 50
+   },
+   "lat": 29.1592299998732,
+   "lon": -95.6626000003538,
+   "period": 202502
+  },
+  {
+   "id": "67849",
+   "name": "BT Signal Ranch",
+   "utility": "BT Signal Ranch, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "solar": 50
+   },
+   "lat": 32.9860000003735,
+   "lon": -96.0859979997889,
+   "period": 202502
+  },
+  {
+   "id": "68244",
+   "name": "Gransolar Texas One, LLC",
+   "utility": "Gransolar Texas One, LLC",
+   "fuel": "solar",
+   "tech": "Solar Photovoltaic",
+   "capacity_MW": 50,
+   "per_fuel_MW": {
+    "solar": 50
+   },
+   "lat": 30.5998170003648,
+   "lon": -97.1547529999437,
+   "period": 202502
+  }
+ ]
+}

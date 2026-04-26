@@ -1,0 +1,172 @@
+/**
+ * fetch_texas_geo.ts
+ *
+ * One-shot. Pulls us-atlas@3 (states + counties at 1:10m), extracts Texas (FIPS 48),
+ * converts TopoJSON → GeoJSON, simplifies + writes to src/lib/charts/texas-geo-raw.ts
+ * for inclusion in map-data.ts.
+ *
+ * Run: pnpm exec tsx scripts/fetch_texas_geo.ts
+ */
+
+import { writeFileSync, mkdirSync } from 'fs'
+import { resolve, dirname } from 'path'
+import { feature, mesh } from 'topojson-client'
+
+const STATES_URL   = 'https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json'
+const COUNTIES_URL = 'https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json'
+const TX_FIPS      = '48'
+const OUT_PATH     = resolve(process.cwd(), 'src/lib/charts/texas-geo-raw.ts')
+const JSON_PATH    = resolve(process.cwd(), 'public/data/texas-weather/tx_state.json')
+
+interface Geometry {
+  type: string
+  coordinates?: number[] | number[][] | number[][][] | number[][][][]
+  geometries?: Geometry[]
+}
+
+interface Feature {
+  type: 'Feature'
+  id?: string | number
+  properties?: { name?: string; [k: string]: unknown }
+  geometry: Geometry
+}
+
+async function fetch_json(url: string): Promise<any> {
+  console.log(`fetching ${url}`)
+  const r = await fetch(url)
+  if (!r.ok) throw new Error(`${url}: ${r.status}`)
+  return r.json()
+}
+
+function flatten_polygon_rings(geom: Geometry): number[][][] {
+  if (geom.type === 'Polygon') return geom.coordinates as number[][][]
+  if (geom.type === 'MultiPolygon') {
+    const rings: number[][][] = []
+    for (const poly of (geom.coordinates as number[][][][])) for (const r of poly) rings.push(r)
+    return rings
+  }
+  return []
+}
+
+function flatten_lines(geom: Geometry): number[][][] {
+  if (geom.type === 'LineString') return [geom.coordinates as number[][]]
+  if (geom.type === 'MultiLineString') return geom.coordinates as number[][][]
+  if (geom.type === 'Polygon') return geom.coordinates as number[][][]
+  if (geom.type === 'MultiPolygon') {
+    const lines: number[][][] = []
+    for (const poly of (geom.coordinates as number[][][][])) for (const r of poly) lines.push(r)
+    return lines
+  }
+  return []
+}
+
+function dp_simplify(coords: number[][], tol: number): number[][] {
+  if (coords.length < 3) return coords
+  const sq_tol = tol * tol
+  const keep = new Uint8Array(coords.length)
+  keep[0] = 1
+  keep[coords.length - 1] = 1
+  const stack: [number, number][] = [[0, coords.length - 1]]
+  while (stack.length > 0) {
+    const [i, j] = stack.pop()!
+    if (j - i < 2) continue
+    const [x1, y1] = coords[i]
+    const [x2, y2] = coords[j]
+    const dx = x2 - x1
+    const dy = y2 - y1
+    const len2 = dx * dx + dy * dy
+    let max_d2 = 0
+    let max_k = -1
+    for (let k = i + 1; k < j; k++) {
+      const [px, py] = coords[k]
+      let d2: number
+      if (len2 === 0) {
+        const ex = px - x1
+        const ey = py - y1
+        d2 = ex * ex + ey * ey
+      } else {
+        const t = Math.max(0, Math.min(1, ((px - x1) * dx + (py - y1) * dy) / len2))
+        const ex = x1 + t * dx - px
+        const ey = y1 + t * dy - py
+        d2 = ex * ex + ey * ey
+      }
+      if (d2 > max_d2) { max_d2 = d2; max_k = k }
+    }
+    if (max_d2 > sq_tol && max_k > 0) {
+      keep[max_k] = 1
+      stack.push([i, max_k])
+      stack.push([max_k, j])
+    }
+  }
+  const out: number[][] = []
+  for (let k = 0; k < coords.length; k++) if (keep[k]) out.push(coords[k])
+  return out
+}
+
+function format_array(coords: number[][], indent = 4): string {
+  const pad = ' '.repeat(indent)
+  return coords.map(([lon, lat]) => `${pad}[${lon.toFixed(4)},${lat.toFixed(4)}]`).join(',\n')
+}
+
+async function main() {
+  const states_topo   = await fetch_json(STATES_URL)
+  const counties_topo = await fetch_json(COUNTIES_URL)
+
+  const states_fc   = feature(states_topo, states_topo.objects.states) as { features: Feature[] }
+  const tx_state = states_fc.features.find(f => String(f.id) === TX_FIPS)
+  if (!tx_state) throw new Error('Texas not found in states-10m')
+  const state_rings = flatten_polygon_rings(tx_state.geometry)
+  const main_ring = state_rings.reduce((a, b) => (a.length >= b.length ? a : b))
+  const state_outline = dp_simplify(main_ring, 0.005)
+
+  const counties_fc = feature(counties_topo, counties_topo.objects.counties) as { features: Feature[] }
+  const tx_counties = counties_fc.features.filter(f => String(f.id).startsWith(TX_FIPS))
+
+  const county_lines: number[][][] = []
+  for (const c of tx_counties) {
+    const rings = flatten_polygon_rings(c.geometry)
+    for (const r of rings) {
+      const simp = dp_simplify(r, 0.008)
+      if (simp.length >= 3) county_lines.push(simp)
+    }
+  }
+
+  console.log(`tx state: ${main_ring.length} → ${state_outline.length} pts`)
+  console.log(`tx counties: ${tx_counties.length} polygons → ${county_lines.length} simplified rings`)
+
+  const total_pts = state_outline.length + county_lines.reduce((s, r) => s + r.length, 0)
+  console.log(`total points: ${total_pts}`)
+
+  const out_dir = dirname(OUT_PATH)
+  mkdirSync(out_dir, { recursive: true })
+  const banner = `// AUTOGENERATED by scripts/fetch_texas_geo.ts — do not edit by hand.
+// Source: us-atlas@3 (https://github.com/topojson/us-atlas), MIT.
+//   states-10m.json   → Texas state outline (FIPS 48)
+//   counties-10m.json → 254 Texas county boundary rings
+// Coordinates are [lon, lat] in WGS84.
+
+`
+  const state_block = `export const TX_STATE_OUTLINE: [number, number][] = [
+${format_array(state_outline)}
+]
+`
+  const counties_block = `export const TX_COUNTY_LINES: [number, number][][] = [
+${county_lines.map(r => `  [\n${format_array(r, 4)}\n  ]`).join(',\n')}
+]
+`
+  writeFileSync(OUT_PATH, banner + state_block + '\n' + counties_block)
+  const stat = require('fs').statSync(OUT_PATH)
+  console.log(`wrote ${OUT_PATH}  (${(stat.size / 1024).toFixed(1)} KB)`)
+
+  /* Sidecar for Python consumers (point-generation script).
+     Single source of truth: same simplified outline, JSON form. */
+  mkdirSync(dirname(JSON_PATH), { recursive: true })
+  writeFileSync(JSON_PATH, JSON.stringify({
+    source: 'us-atlas@3 states-10m.json (FIPS 48)',
+    crs: 'WGS84',
+    state_outline: state_outline,
+  }))
+  console.log(`wrote ${JSON_PATH}`)
+}
+
+main().catch(e => { console.error(e); process.exit(1) })

@@ -1,0 +1,636 @@
+{
+  "buses": [
+    {
+      "id": "HOUSTON",
+      "name": "Houston",
+      "lat": 29.76,
+      "lon": -95.37,
+      "zone": "Coast",
+      "kind": "mixed"
+    },
+    {
+      "id": "DFW",
+      "name": "Dallas\u2013Ft Worth",
+      "lat": 32.78,
+      "lon": -96.8,
+      "zone": "North",
+      "kind": "load"
+    },
+    {
+      "id": "AUSTIN",
+      "name": "Austin",
+      "lat": 30.27,
+      "lon": -97.74,
+      "zone": "South Central",
+      "kind": "load"
+    },
+    {
+      "id": "SAN_ANTONIO",
+      "name": "San Antonio",
+      "lat": 29.42,
+      "lon": -98.49,
+      "zone": "South Central",
+      "kind": "load"
+    },
+    {
+      "id": "EL_PASO",
+      "name": "El Paso",
+      "lat": 31.76,
+      "lon": -106.49,
+      "zone": "Far West",
+      "kind": "mixed"
+    },
+    {
+      "id": "RGV",
+      "name": "Rio Grande Valley",
+      "lat": 26.2,
+      "lon": -98.23,
+      "zone": "South",
+      "kind": "load"
+    },
+    {
+      "id": "CORPUS",
+      "name": "Corpus Christi",
+      "lat": 27.8,
+      "lon": -97.4,
+      "zone": "Coast",
+      "kind": "mixed"
+    },
+    {
+      "id": "PERMIAN",
+      "name": "Permian Basin",
+      "lat": 31.84,
+      "lon": -102.37,
+      "zone": "Far West",
+      "kind": "mixed"
+    },
+    {
+      "id": "S_TEXAS_WIND",
+      "name": "South Texas Wind",
+      "lat": 27.0,
+      "lon": -98.5,
+      "zone": "South",
+      "kind": "generation"
+    },
+    {
+      "id": "PANHANDLE",
+      "name": "Panhandle",
+      "lat": 35.22,
+      "lon": -101.83,
+      "zone": "North",
+      "kind": "generation"
+    },
+    {
+      "id": "W_TEXAS_SOLAR",
+      "name": "West Texas Solar",
+      "lat": 31.0,
+      "lon": -103.0,
+      "zone": "Far West",
+      "kind": "generation"
+    },
+    {
+      "id": "COMAL",
+      "name": "Comal",
+      "lat": 29.71,
+      "lon": -98.13,
+      "zone": "South Central",
+      "kind": "generation"
+    },
+    {
+      "id": "COAST_GAS",
+      "name": "Coastal Bend",
+      "lat": 28.75,
+      "lon": -96.0,
+      "zone": "Coast",
+      "kind": "generation"
+    },
+    {
+      "id": "E_TEXAS",
+      "name": "East Texas",
+      "lat": 32.3,
+      "lon": -94.5,
+      "zone": "East",
+      "kind": "generation"
+    },
+    {
+      "id": "LCRA",
+      "name": "Lower Colorado",
+      "lat": 30.5,
+      "lon": -98.5,
+      "zone": "South Central",
+      "kind": "generation"
+    },
+    {
+      "id": "BRAZOS",
+      "name": "Brazos Hub",
+      "lat": 31.0,
+      "lon": -97.0,
+      "zone": "Central",
+      "kind": "mixed"
+    },
+    {
+      "id": "SWEETWATER",
+      "name": "Sweetwater Wind",
+      "lat": 32.47,
+      "lon": -100.41,
+      "zone": "West",
+      "kind": "generation"
+    },
+    {
+      "id": "N_TEXAS",
+      "name": "North Texas",
+      "lat": 33.5,
+      "lon": -97.0,
+      "zone": "North",
+      "kind": "generation"
+    },
+    {
+      "id": "ROANS_PRAIRIE",
+      "name": "Roans Prairie",
+      "lat": 30.7,
+      "lon": -95.95,
+      "zone": "Coast",
+      "kind": "generation"
+    },
+    {
+      "id": "WACO",
+      "name": "Waco",
+      "lat": 31.55,
+      "lon": -97.13,
+      "zone": "Central",
+      "kind": "load"
+    }
+  ],
+  "lines": [
+    {
+      "id": "L01",
+      "from": "PANHANDLE",
+      "to": "N_TEXAS",
+      "limit_MW": 3600,
+      "reactance": 0.045
+    },
+    {
+      "id": "L02",
+      "from": "PANHANDLE",
+      "to": "SWEETWATER",
+      "limit_MW": 2700,
+      "reactance": 0.06
+    },
+    {
+      "id": "L03",
+      "from": "SWEETWATER",
+      "to": "BRAZOS",
+      "limit_MW": 3300,
+      "reactance": 0.05
+    },
+    {
+      "id": "L04",
+      "from": "SWEETWATER",
+      "to": "PERMIAN",
+      "limit_MW": 2400,
+      "reactance": 0.04
+    },
+    {
+      "id": "L05",
+      "from": "PERMIAN",
+      "to": "W_TEXAS_SOLAR",
+      "limit_MW": 2100,
+      "reactance": 0.03
+    },
+    {
+      "id": "L06",
+      "from": "PERMIAN",
+      "to": "EL_PASO",
+      "limit_MW": 1500,
+      "reactance": 0.08
+    },
+    {
+      "id": "L07",
+      "from": "W_TEXAS_SOLAR",
+      "to": "EL_PASO",
+      "limit_MW": 1350,
+      "reactance": 0.07
+    },
+    {
+      "id": "L08",
+      "from": "BRAZOS",
+      "to": "DFW",
+      "limit_MW": 4800,
+      "reactance": 0.025
+    },
+    {
+      "id": "L09",
+      "from": "BRAZOS",
+      "to": "WACO",
+      "limit_MW": 2100,
+      "reactance": 0.02
+    },
+    {
+      "id": "L10",
+      "from": "BRAZOS",
+      "to": "AUSTIN",
+      "limit_MW": 2700,
+      "reactance": 0.03
+    },
+    {
+      "id": "L11",
+      "from": "N_TEXAS",
+      "to": "DFW",
+      "limit_MW": 4200,
+      "reactance": 0.02
+    },
+    {
+      "id": "L12",
+      "from": "N_TEXAS",
+      "to": "E_TEXAS",
+      "limit_MW": 3000,
+      "reactance": 0.035
+    },
+    {
+      "id": "L13",
+      "from": "DFW",
+      "to": "E_TEXAS",
+      "limit_MW": 3600,
+      "reactance": 0.025
+    },
+    {
+      "id": "L14",
+      "from": "DFW",
+      "to": "WACO",
+      "limit_MW": 3000,
+      "reactance": 0.022
+    },
+    {
+      "id": "L15",
+      "from": "WACO",
+      "to": "AUSTIN",
+      "limit_MW": 2400,
+      "reactance": 0.025
+    },
+    {
+      "id": "L16",
+      "from": "E_TEXAS",
+      "to": "ROANS_PRAIRIE",
+      "limit_MW": 3300,
+      "reactance": 0.03
+    },
+    {
+      "id": "L17",
+      "from": "ROANS_PRAIRIE",
+      "to": "HOUSTON",
+      "limit_MW": 4500,
+      "reactance": 0.02
+    },
+    {
+      "id": "L18",
+      "from": "AUSTIN",
+      "to": "SAN_ANTONIO",
+      "limit_MW": 3300,
+      "reactance": 0.025
+    },
+    {
+      "id": "L19",
+      "from": "AUSTIN",
+      "to": "LCRA",
+      "limit_MW": 2100,
+      "reactance": 0.022
+    },
+    {
+      "id": "L20",
+      "from": "LCRA",
+      "to": "SAN_ANTONIO",
+      "limit_MW": 1950,
+      "reactance": 0.025
+    },
+    {
+      "id": "L21",
+      "from": "SAN_ANTONIO",
+      "to": "COMAL",
+      "limit_MW": 2100,
+      "reactance": 0.018
+    },
+    {
+      "id": "L22",
+      "from": "SAN_ANTONIO",
+      "to": "RGV",
+      "limit_MW": 2700,
+      "reactance": 0.045
+    },
+    {
+      "id": "L23",
+      "from": "SAN_ANTONIO",
+      "to": "CORPUS",
+      "limit_MW": 2250,
+      "reactance": 0.04
+    },
+    {
+      "id": "L24",
+      "from": "CORPUS",
+      "to": "RGV",
+      "limit_MW": 1350,
+      "reactance": 0.03
+    },
+    {
+      "id": "L25",
+      "from": "CORPUS",
+      "to": "S_TEXAS_WIND",
+      "limit_MW": 2400,
+      "reactance": 0.02
+    },
+    {
+      "id": "L26",
+      "from": "S_TEXAS_WIND",
+      "to": "RGV",
+      "limit_MW": 1650,
+      "reactance": 0.028
+    },
+    {
+      "id": "L27",
+      "from": "CORPUS",
+      "to": "COAST_GAS",
+      "limit_MW": 2550,
+      "reactance": 0.018
+    },
+    {
+      "id": "L28",
+      "from": "COAST_GAS",
+      "to": "HOUSTON",
+      "limit_MW": 3600,
+      "reactance": 0.02
+    },
+    {
+      "id": "L29",
+      "from": "HOUSTON",
+      "to": "AUSTIN",
+      "limit_MW": 2700,
+      "reactance": 0.04
+    },
+    {
+      "id": "L30",
+      "from": "HOUSTON",
+      "to": "E_TEXAS",
+      "limit_MW": 3300,
+      "reactance": 0.03
+    }
+  ],
+  "generators": [
+    {
+      "id": "HOUSTON-NUC-1",
+      "bus": "HOUSTON",
+      "fuel": "nuclear",
+      "capacity_MW": 2700,
+      "marginal_cost": 8
+    },
+    {
+      "id": "HOUSTON-GAS-1",
+      "bus": "HOUSTON",
+      "fuel": "gas",
+      "capacity_MW": 3500,
+      "marginal_cost": 38
+    },
+    {
+      "id": "HOUSTON-GAS-PEAK",
+      "bus": "HOUSTON",
+      "fuel": "gas",
+      "capacity_MW": 1500,
+      "marginal_cost": 78
+    },
+    {
+      "id": "DFW-GAS-1",
+      "bus": "DFW",
+      "fuel": "gas",
+      "capacity_MW": 2200,
+      "marginal_cost": 42
+    },
+    {
+      "id": "DFW-GAS-PEAK",
+      "bus": "DFW",
+      "fuel": "gas",
+      "capacity_MW": 1800,
+      "marginal_cost": 85
+    },
+    {
+      "id": "AUSTIN-GAS-1",
+      "bus": "AUSTIN",
+      "fuel": "gas",
+      "capacity_MW": 1200,
+      "marginal_cost": 44
+    },
+    {
+      "id": "SAN_ANTONIO-GAS-1",
+      "bus": "SAN_ANTONIO",
+      "fuel": "gas",
+      "capacity_MW": 1900,
+      "marginal_cost": 40
+    },
+    {
+      "id": "EL_PASO-GAS-1",
+      "bus": "EL_PASO",
+      "fuel": "gas",
+      "capacity_MW": 700,
+      "marginal_cost": 50
+    },
+    {
+      "id": "EL_PASO-SOLAR-1",
+      "bus": "EL_PASO",
+      "fuel": "solar",
+      "capacity_MW": 800,
+      "marginal_cost": 0
+    },
+    {
+      "id": "CORPUS-GAS-1",
+      "bus": "CORPUS",
+      "fuel": "gas",
+      "capacity_MW": 1100,
+      "marginal_cost": 45
+    },
+    {
+      "id": "PERMIAN-GAS-1",
+      "bus": "PERMIAN",
+      "fuel": "gas",
+      "capacity_MW": 1400,
+      "marginal_cost": 36
+    },
+    {
+      "id": "PERMIAN-WIND-1",
+      "bus": "PERMIAN",
+      "fuel": "wind",
+      "capacity_MW": 2400,
+      "marginal_cost": 0
+    },
+    {
+      "id": "S_TX_WIND-1",
+      "bus": "S_TEXAS_WIND",
+      "fuel": "wind",
+      "capacity_MW": 4500,
+      "marginal_cost": 0
+    },
+    {
+      "id": "PANHANDLE-WIND-1",
+      "bus": "PANHANDLE",
+      "fuel": "wind",
+      "capacity_MW": 5200,
+      "marginal_cost": 0
+    },
+    {
+      "id": "PANHANDLE-GAS-1",
+      "bus": "PANHANDLE",
+      "fuel": "gas",
+      "capacity_MW": 800,
+      "marginal_cost": 48
+    },
+    {
+      "id": "W_TX-SOLAR-1",
+      "bus": "W_TEXAS_SOLAR",
+      "fuel": "solar",
+      "capacity_MW": 6500,
+      "marginal_cost": 0
+    },
+    {
+      "id": "W_TX-WIND-1",
+      "bus": "W_TEXAS_SOLAR",
+      "fuel": "wind",
+      "capacity_MW": 1500,
+      "marginal_cost": 0
+    },
+    {
+      "id": "COMAL-SOLAR-1",
+      "bus": "COMAL",
+      "fuel": "solar",
+      "capacity_MW": 1200,
+      "marginal_cost": 0
+    },
+    {
+      "id": "COMAL-GAS-1",
+      "bus": "COMAL",
+      "fuel": "gas",
+      "capacity_MW": 700,
+      "marginal_cost": 46
+    },
+    {
+      "id": "COAST-GAS-1",
+      "bus": "COAST_GAS",
+      "fuel": "gas",
+      "capacity_MW": 3200,
+      "marginal_cost": 39
+    },
+    {
+      "id": "COAST-LNG-1",
+      "bus": "COAST_GAS",
+      "fuel": "gas",
+      "capacity_MW": 1100,
+      "marginal_cost": 55
+    },
+    {
+      "id": "E_TX-COAL-1",
+      "bus": "E_TEXAS",
+      "fuel": "coal",
+      "capacity_MW": 2400,
+      "marginal_cost": 28
+    },
+    {
+      "id": "E_TX-GAS-1",
+      "bus": "E_TEXAS",
+      "fuel": "gas",
+      "capacity_MW": 1700,
+      "marginal_cost": 41
+    },
+    {
+      "id": "LCRA-HYDRO-1",
+      "bus": "LCRA",
+      "fuel": "hydro",
+      "capacity_MW": 280,
+      "marginal_cost": 5
+    },
+    {
+      "id": "LCRA-GAS-1",
+      "bus": "LCRA",
+      "fuel": "gas",
+      "capacity_MW": 1400,
+      "marginal_cost": 47
+    },
+    {
+      "id": "SWEETWATER-WIND-1",
+      "bus": "SWEETWATER",
+      "fuel": "wind",
+      "capacity_MW": 6800,
+      "marginal_cost": 0
+    },
+    {
+      "id": "N_TX-GAS-1",
+      "bus": "N_TEXAS",
+      "fuel": "gas",
+      "capacity_MW": 1900,
+      "marginal_cost": 43
+    },
+    {
+      "id": "ROANS-GAS-1",
+      "bus": "ROANS_PRAIRIE",
+      "fuel": "gas",
+      "capacity_MW": 2100,
+      "marginal_cost": 41
+    }
+  ],
+  "candidate_battery_sites": [
+    {
+      "id": "HOUSTON-BAT",
+      "bus": "HOUSTON",
+      "max_capacity_MWh": 800,
+      "cost_per_kWh": 280
+    },
+    {
+      "id": "DFW-BAT",
+      "bus": "DFW",
+      "max_capacity_MWh": 800,
+      "cost_per_kWh": 280
+    },
+    {
+      "id": "AUSTIN-BAT",
+      "bus": "AUSTIN",
+      "max_capacity_MWh": 600,
+      "cost_per_kWh": 290
+    },
+    {
+      "id": "SAN_ANTONIO-BAT",
+      "bus": "SAN_ANTONIO",
+      "max_capacity_MWh": 600,
+      "cost_per_kWh": 290
+    },
+    {
+      "id": "BRAZOS-BAT",
+      "bus": "BRAZOS",
+      "max_capacity_MWh": 600,
+      "cost_per_kWh": 270
+    },
+    {
+      "id": "WACO-BAT",
+      "bus": "WACO",
+      "max_capacity_MWh": 400,
+      "cost_per_kWh": 270
+    },
+    {
+      "id": "PERMIAN-BAT",
+      "bus": "PERMIAN",
+      "max_capacity_MWh": 800,
+      "cost_per_kWh": 260
+    },
+    {
+      "id": "SWEETWATER-BAT",
+      "bus": "SWEETWATER",
+      "max_capacity_MWh": 1000,
+      "cost_per_kWh": 250
+    },
+    {
+      "id": "S_TEXAS_BAT",
+      "bus": "S_TEXAS_WIND",
+      "max_capacity_MWh": 800,
+      "cost_per_kWh": 260
+    },
+    {
+      "id": "CORPUS-BAT",
+      "bus": "CORPUS",
+      "max_capacity_MWh": 500,
+      "cost_per_kWh": 280
+    }
+  ]
+}
